@@ -1,0 +1,140 @@
+﻿<Page x:Class="TuPesoEspacial.PlanetDetailPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TuPesoEspacial"
+      mc:Ignorable="d" 
+      d:DesignHeight="1080" d:DesignWidth="1920"
+      Title="PlanetDetailPage">
+
+    <!-- Fade-in animation -->
+    <Page.Triggers>
+        <EventTrigger RoutedEvent="Page.Loaded">
+            <BeginStoryboard>
+                <Storyboard>
+                    <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.0" To="1.0" Duration="0:0:0.5"/>
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </Page.Triggers>
+
+    <!-- Resources must be defined before they are used. -->
+    <Page.Resources>
+
+        <Style x:Key="NavButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="60"/>
+            <Setter Property="FontFamily" Value="Segoe MDL2 Assets"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="Transparent">
+                            <TextBlock Text="{TemplateBinding Content}" Foreground="{TemplateBinding Foreground}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Foreground" Value="#FED000"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
+    <Canvas>
+        
+        
+        <Canvas.Background>
+            <ImageBrush ImageSource="/Images/Fondos/FONDO 4.png" Stretch="UniformToFill"/>
+        </Canvas.Background>
+
+
+        <!-- Left Column with Info Cards -->
+        <StackPanel Canvas.Left="100" Canvas.Top="150">
+            <!-- User Info Card -->
+            <Border Width="450" Height="250" CornerRadius="20" Background="#2C3E50" Margin="0,0,0,30">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Placeholder for user image -->
+                    <Border Width="180" Height="180" Background="#485a6e" CornerRadius="15" Margin="30,0,0,0"/>
+
+                    <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="20,0,0,0">
+                        <TextBlock Text="{Binding UserName}" FontFamily="Fonts/#Funky Smile" FontSize="40" Foreground="White" Margin="0,0,0,20"/>
+                        <TextBlock Text="Tu Peso:" FontFamily="Fonts/#Funky Smile" FontSize="24" Foreground="#FED000"/>
+                        <TextBlock Text="{Binding CalculatedWeight}" FontFamily="Fonts/#Funky Smile" FontSize="36" Foreground="White"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <!-- Planet Description Card -->
+            <Border Width="450" Height="400" CornerRadius="20" Background="#2C3E50">
+                <StackPanel Margin="30">
+                    <TextBlock Text="{Binding SelectedPlanet.Name}" FontFamily="Fonts/#Funky Smile" FontSize="48" Foreground="#FED000" Margin="0,0,0,20"/>
+                    <TextBlock Text="{Binding SelectedPlanet.Description}" TextWrapping="Wrap" FontFamily="Cascadia Mono" FontSize="15" Foreground="White"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+
+        <!-- Right Column with Planet Image and Navigation -->
+        <StackPanel Canvas.Left="1100" Canvas.Top="180" HorizontalAlignment="Center">
+            <!-- Planet Image -->
+            <Image Source="{Binding SelectedPlanet.ImagePath}" Width="500" Height="500"/>
+
+            <!-- Planet Name Label -->
+            <TextBlock Text="{Binding SelectedPlanet.Name}" 
+               TextAlignment="Center" 
+               FontFamily="Fonts/#Funky Smile" 
+               FontSize="72" 
+               Foreground="White" 
+               Margin="0,20,0,0"/>
+        </StackPanel>
+
+
+        <!-- Navigation Buttons - UPDATED CONTENT TO USE ICONS -->
+        <Button x:Name="PreviousButton" Click="PreviousButton_Click" Content="&#xE76B;" Canvas.Left="850" Canvas.Top="400" Style="{StaticResource NavButtonStyle}"/>
+        <Button x:Name="NextButton" Click="NextButton_Click" Content="&#xE76C;" Canvas.Right="100" Canvas.Top="400" Style="{StaticResource NavButtonStyle}"/>
+
+        <!-- Back Button -->
+        <Button x:Name="BackButton" 
+                Content="REGRESAR" 
+                Click="BackButton_Click" 
+                FontSize="48" 
+                FontFamily="Fonts/#Funky Smile"
+                Cursor="Hand"
+                Width="524"
+                Height="100"
+                Canvas.Top="900" 
+                Canvas.Left="698">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="#FED000"/>
+                    <Setter Property="Foreground" Value="#2C3E50"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="{TemplateBinding Background}" CornerRadius="20">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#F39C12"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+    </Canvas>
+
+</Page>

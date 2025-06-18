@@ -1,0 +1,117 @@
+﻿<Page x:Class="TuPesoEspacial.ResultsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TuPesoEspacial"
+      mc:Ignorable="d" 
+      d:DesignHeight="1080" d:DesignWidth="1920"
+      Title="ResultsPage">
+
+    <Page.Resources>
+
+        <DataTemplate x:Key="PlanetCardTemplate">
+            <Border Width="250" Height="280" Margin="15" CornerRadius="20" BorderBrush="#FED000" BorderThickness="2" MouseLeftButtonUp="PlanetCard_MouseLeftButtonUp">
+                <Border.Style>
+                    <Style TargetType="Border">
+                        <Setter Property="Background" Value="#2C3E50"/>
+                        <Setter Property="Effect">
+                            <Setter.Value>
+                                <DropShadowEffect ShadowDepth="0" Color="#FED000" Opacity="0.7" BlurRadius="15"/>
+                            </Setter.Value>
+                        </Setter>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#3E5870"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Border.Style>
+
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Image Source="{Binding ImagePath}" Width="80" Height="80" Margin="0,0,0,15"/>
+                    <TextBlock Text="{Binding Name}" FontWeight="Bold" FontSize="28" HorizontalAlignment="Center" Foreground="#FED000" FontFamily="Fonts/#Funky Smile"/>
+                    <TextBlock FontSize="16" HorizontalAlignment="Center" Foreground="White" Margin="0,10,0,5" FontFamily="Fonts/#Funky Smile">
+                <Run Text="Tu peso seria"/>
+                    </TextBlock>
+                    <TextBlock Text="{Binding CalculatedWeight}" FontSize="36" FontWeight="Bold" HorizontalAlignment="Center" Foreground="White" FontFamily="Britannic Bold"/>
+                </StackPanel>
+            </Border>
+        </DataTemplate>
+
+    </Page.Resources>
+
+    <Page.Triggers>
+        <EventTrigger RoutedEvent="Page.Loaded">
+            <BeginStoryboard>
+                <Storyboard>
+                    <DoubleAnimation
+                        Storyboard.TargetProperty="Opacity"
+                        From="0.0"
+                        To="1.0"
+                        Duration="0:0:1" />
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </Page.Triggers>
+
+    <!-- Main Canvas layout -->
+    <Canvas>
+        
+        <Canvas.Background>
+            <ImageBrush ImageSource="/Images/Fondos/FONDO 2.png" Stretch="UniformToFill"/>
+        </Canvas.Background>
+
+
+        <!-- Main title -->
+        <TextBlock Canvas.Top="50" Width="1920" TextAlignment="Center" FontSize="60" FontFamily="Fonts/#Funky Smile">
+             <Run Text="Hola" Foreground="White"/>
+             <Run Text="{Binding UserName}" FontWeight="Bold" Foreground="#FED000"/>
+             <Run Text=". Estos son tus pesos cósmicos. ¡Toca para saber más!" Foreground="White"/>
+        </TextBlock>
+
+        <!-- ScrollViewer containing the planet cards -->
+        <ScrollViewer Canvas.Top="180" Width="1920" Height="680" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+            <ItemsControl x:Name="PlanetsItemsControl" ItemTemplate="{StaticResource PlanetCardTemplate}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel HorizontalAlignment="Center"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+        </ScrollViewer>
+
+        <!-- Back button, styled to match the other pages -->
+        <Button x:Name="BackButton" 
+                Content="VOLVER A CALCULAR" 
+                Click="BackButton_Click" 
+                FontSize="48" 
+                FontFamily="Fonts/#Funky Smile"
+                Cursor="Hand"
+                Width="524"
+                Height="100"
+                Canvas.Top="900" 
+                Canvas.Left="698" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="#FED000"/>
+                    <Setter Property="Foreground" Value="#2C3E50"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="{TemplateBinding Background}" CornerRadius="20">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#F39C12"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+    </Canvas>
+</Page>

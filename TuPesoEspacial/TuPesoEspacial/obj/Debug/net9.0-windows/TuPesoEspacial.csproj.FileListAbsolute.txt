@@ -1,0 +1,88 @@
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\TuPesoEspacial.exe
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\TuPesoEspacial.deps.json
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\TuPesoEspacial.runtimeconfig.json
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\TuPesoEspacial.dll
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\TuPesoEspacial.pdb
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial_MarkupCompile.cache
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial_MarkupCompile.lref
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.g.resources
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.AssemblyInfoInputs.cache
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.AssemblyInfo.cs
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.csproj.CoreCompileInputs.cache
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.dll
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\refint\TuPesoEspacial.dll
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.pdb
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.genruntimeconfig.cache
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\ref\TuPesoEspacial.dll
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\InputPage.baml
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\InputPage.g.cs
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\WelcomePage.baml
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\NameInputPage.g.cs
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\ResultsPage.g.cs
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\WelcomePage.g.cs
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\NameInputPage.baml
+C:\Users\rober\OneDrive\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\ResultsPage.baml
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\TuPesoEspacial.exe
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\TuPesoEspacial.deps.json
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\TuPesoEspacial.runtimeconfig.json
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\TuPesoEspacial.dll
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\TuPesoEspacial.pdb
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\WelcomePage.baml
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\InputPage.g.cs
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\NameInputPage.g.cs
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\ResultsPage.g.cs
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\WelcomePage.g.cs
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial_MarkupCompile.cache
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial_MarkupCompile.lref
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\InputPage.baml
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\NameInputPage.baml
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\ResultsPage.baml
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.g.resources
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.AssemblyInfoInputs.cache
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.AssemblyInfo.cs
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.csproj.CoreCompileInputs.cache
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.sourcelink.json
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.dll
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\refint\TuPesoEspacial.dll
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.pdb
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.genruntimeconfig.cache
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\ref\TuPesoEspacial.dll
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\TuPesoEspacial.exe
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\TuPesoEspacial.deps.json
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\TuPesoEspacial.runtimeconfig.json
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\TuPesoEspacial.dll
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\TuPesoEspacial.pdb
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\WelcomePage.baml
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\InputPage.g.cs
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\NameInputPage.g.cs
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\ResultsPage.g.cs
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\WelcomePage.g.cs
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial_MarkupCompile.cache
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial_MarkupCompile.lref
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\InputPage.baml
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\NameInputPage.baml
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\ResultsPage.baml
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.g.resources
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.AssemblyInfoInputs.cache
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.AssemblyInfo.cs
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.csproj.CoreCompileInputs.cache
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.sourcelink.json
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.dll
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\refint\TuPesoEspacial.dll
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.pdb
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.genruntimeconfig.cache
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\ref\TuPesoEspacial.dll
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\PlanetDetailPage.g.cs
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\PlanetDetailPage.baml

@@ -1,0 +1,239 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\tupesoespacial\\tupesoespacial\\planetdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\planetdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\tupesoespacial\\tupesoespacial\\resultspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\resultspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\tupesoespacial\\tupesoespacial\\resultspage.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\resultspage.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\tupesoespacial\\tupesoespacial\\resultspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\resultspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\tupesoespacial\\tupesoespacial\\planetdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\planetdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\tupesoespacial\\tupesoespacial\\nameinputpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\nameinputpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\tupesoespacial\\tupesoespacial\\nameinputpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\nameinputpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\tupesoespacial\\tupesoespacial\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\tupesoespacial\\tupesoespacial\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\tupesoespacial\\tupesoespacial\\inputpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\inputpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\tupesoespacial\\tupesoespacial\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\tupesoespacial\\tupesoespacial\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlanetDetailPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\PlanetDetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "TuPesoEspacial\\PlanetDetailPage.xaml.cs",
+              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\PlanetDetailPage.xaml.cs",
+              "RelativeToolTip": "TuPesoEspacial\\PlanetDetailPage.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA1wCMAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T21:16:01.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InputPage.xaml",
+              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\InputPage.xaml",
+              "RelativeDocumentMoniker": "TuPesoEspacial\\InputPage.xaml",
+              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\InputPage.xaml",
+              "RelativeToolTip": "TuPesoEspacial\\InputPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-17T21:14:57.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NameInputPage.xaml",
+              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\NameInputPage.xaml",
+              "RelativeDocumentMoniker": "TuPesoEspacial\\NameInputPage.xaml",
+              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\NameInputPage.xaml",
+              "RelativeToolTip": "TuPesoEspacial\\NameInputPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-17T21:14:43.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WelcomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\WelcomePage.xaml",
+              "RelativeDocumentMoniker": "TuPesoEspacial\\WelcomePage.xaml",
+              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\WelcomePage.xaml",
+              "RelativeToolTip": "TuPesoEspacial\\WelcomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-17T21:05:41.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "TuPesoEspacial\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\MainWindow.xaml",
+              "RelativeToolTip": "TuPesoEspacial\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-17T21:05:31.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NameInputPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\NameInputPage.xaml.cs",
+              "RelativeDocumentMoniker": "TuPesoEspacial\\NameInputPage.xaml.cs",
+              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\NameInputPage.xaml.cs",
+              "RelativeToolTip": "TuPesoEspacial\\NameInputPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T21:15:34.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResultsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\ResultsPage.xaml",
+              "RelativeDocumentMoniker": "TuPesoEspacial\\ResultsPage.xaml",
+              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\ResultsPage.xaml",
+              "RelativeToolTip": "TuPesoEspacial\\ResultsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-17T21:16:36.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResultsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\ResultsPage.xaml.cs",
+              "RelativeDocumentMoniker": "TuPesoEspacial\\ResultsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\ResultsPage.xaml.cs",
+              "RelativeToolTip": "TuPesoEspacial\\ResultsPage.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAWwHMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T21:40:20.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlanetDetailPage.xaml",
+              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\PlanetDetailPage.xaml",
+              "RelativeDocumentMoniker": "TuPesoEspacial\\PlanetDetailPage.xaml",
+              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\PlanetDetailPage.xaml",
+              "RelativeToolTip": "TuPesoEspacial\\PlanetDetailPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-17T21:16:02.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TuPesoEspacial\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TuPesoEspacial\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T21:05:29.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WelcomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\WelcomePage.xaml.cs",
+              "RelativeDocumentMoniker": "TuPesoEspacial\\WelcomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\WelcomePage.xaml.cs",
+              "RelativeToolTip": "TuPesoEspacial\\WelcomePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T21:15:04.75Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "21f0679f-f196-4603-85b3-1e3057c278b0",
+        "Display": 0,
+        "X": 60,
+        "Y": 125,
+        "Width": 800,
+        "Height": 600,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResultsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\ResultsPage.xaml",
+              "RelativeDocumentMoniker": "TuPesoEspacial\\ResultsPage.xaml",
+              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\ResultsPage.xaml",
+              "RelativeToolTip": "TuPesoEspacial\\ResultsPage.xaml",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAuwHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-18T21:01:03.014Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

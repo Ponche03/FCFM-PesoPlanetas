@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\FunkySmile-Regular.otf" />
+    <None Remove="Fonts\Funky Smile.ttf" />
+    <None Remove="Fonts\NCLNeovibes-Demo.otf" />
+    <None Remove="Fonts\Shooting Star.ttf" />
+    <None Remove="Images\FCFM_logo.png" />
+    <None Remove="Images\Fondos\FONDO 1.png" />
+    <None Remove="Images\Fondos\FONDO 2.png" />
+    <None Remove="Images\Fondos\FONDO 3.png" />
+    <None Remove="Images\Fondos\FONDO 4.png" />
+    <None Remove="Images\Fondos\FONDO_SIN_ESTRELLAS.png" />
+    <None Remove="Images\Planetas\JUPITER.png" />
+    <None Remove="Images\Planetas\LUNA.png" />
+    <None Remove="Images\Planetas\MARTE.png" />
+    <None Remove="Images\Planetas\MERCURIO.png" />
+    <None Remove="Images\Planetas\NEPTUNO.png" />
+    <None Remove="Images\Planetas\SATURNO.png" />
+    <None Remove="Images\Planetas\SOL.png" />
+    <None Remove="Images\Planetas\TIERRA.png" />
+    <None Remove="Images\Planetas\URANO.png" />
+    <None Remove="Images\Planetas\VENUS.png" />
+    <None Remove="Images\UANL_logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\FunkySmile-Regular.otf" />
+    <Resource Include="Fonts\NCLNeovibes-Demo.otf" />
+    <Resource Include="Fonts\Shooting Star.ttf" />
+    <Resource Include="Images\FCFM_logo.png" />
+    <Resource Include="Images\Fondos\FONDO 1.png" />
+    <Resource Include="Images\Fondos\FONDO 2.png" />
+    <Resource Include="Images\Fondos\FONDO 3.png" />
+    <Resource Include="Images\Fondos\FONDO 4.png" />
+    <Resource Include="Images\Fondos\FONDO_SIN_ESTRELLAS.png" />
+    <Resource Include="Images\Planetas\JUPITER.png" />
+    <Resource Include="Images\Planetas\LUNA.png" />
+    <Resource Include="Images\Planetas\MARTE.png" />
+    <Resource Include="Images\Planetas\MERCURIO.png" />
+    <Resource Include="Images\Planetas\NEPTUNO.png" />
+    <Resource Include="Images\Planetas\SATURNO.png" />
+    <Resource Include="Images\Planetas\SOL.png" />
+    <Resource Include="Images\Planetas\TIERRA.png" />
+    <Resource Include="Images\Planetas\URANO.png" />
+    <Resource Include="Images\Planetas\VENUS.png" />
+    <Resource Include="Images\UANL_logo.png" />
+  </ItemGroup>
+
+</Project>
