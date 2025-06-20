@@ -34,7 +34,7 @@
                     <TextBlock FontSize="16" HorizontalAlignment="Center" Foreground="White" Margin="0,10,0,5" FontFamily="Fonts/#Funky Smile">
                 <Run Text="Tu peso seria"/>
                     </TextBlock>
-                    <TextBlock Text="{Binding CalculatedWeight}" FontSize="36" FontWeight="Bold" HorizontalAlignment="Center" Foreground="White" FontFamily="Britannic Bold"/>
+                    <TextBlock Text="{Binding CalculatedWeight}" FontSize="36" FontWeight="Bold" HorizontalAlignment="Center" Foreground="White" FontFamily="Franklin Gothic Demi"/>
                 </StackPanel>
             </Border>
         </DataTemplate>
@@ -57,7 +57,7 @@
 
     <!-- Main Canvas layout -->
     <Canvas>
-        
+
         <Canvas.Background>
             <ImageBrush ImageSource="/Images/Fondos/FONDO 2.png" Stretch="UniformToFill"/>
         </Canvas.Background>
@@ -113,5 +113,37 @@
                 </Style>
             </Button.Style>
         </Button>
+
+        <!-- Print button, styled to match the other pages -->
+        <Button x:Name="PrintButton" 
+        Click="PrintButton_Click"
+        Canvas.Right="40" Canvas.Top="991"
+        FontFamily="Segoe MDL2 Assets" 
+        Content="&#xE749;" 
+        FontSize="36" 
+        Foreground="White"
+        Cursor="Hand" Canvas.Left="1801">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="Transparent"/>
+                    <Setter Property="BorderThickness" Value="0"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Foreground" Value="#FED000"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+
     </Canvas>
 </Page>

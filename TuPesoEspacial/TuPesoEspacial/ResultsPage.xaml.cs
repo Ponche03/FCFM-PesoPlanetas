@@ -3,7 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
+using System.Windows.Documents;
 using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 
 namespace TuPesoEspacial
@@ -22,16 +26,21 @@ namespace TuPesoEspacial
         private readonly double _earthWeight;
         private List<PlanetInfo> _planets;
 
+        private readonly BitmapImage _userImage;
         public string UserName { get; set; }
 
-        public ResultsPage(string userName, double earthWeight)
+        public ResultsPage(string userName, double earthWeight, BitmapImage userImage)
         {
             InitializeComponent();
             _earthWeight = earthWeight;
             UserName = userName;
+
+            _userImage = userImage;
+
             this.DataContext = this;
             LoadPlanetData();
         }
+
 
         private void LoadPlanetData()
         {
@@ -120,9 +129,17 @@ namespace TuPesoEspacial
         {
             if (sender is Border clickedBorder && clickedBorder.DataContext is PlanetInfo selectedPlanet)
             {
-                var detailPage = new PlanetDetailPage(selectedPlanet, _planets, UserName, _earthWeight);
+                // Ahora pasamos la imagen guardada a la PlanetDetailPage
+                var detailPage = new PlanetDetailPage(selectedPlanet, _planets, UserName, _earthWeight, _userImage);
                 this.NavigationService.Navigate(detailPage);
             }
         }
+
+        private void PrintButton_Click(object sender, RoutedEventArgs e)
+        {
+          
+        }
+
     }
+
 }

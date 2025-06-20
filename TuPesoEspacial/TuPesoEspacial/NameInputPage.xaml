@@ -55,7 +55,7 @@
 
             <!-- The button now matches the other pages' style -->
             <Button x:Name="NextButton" 
-                    Content="CALCULAR" 
+                    Content="SIGUIENTE" 
                     Click="NextButton_Click" 
                     FontSize="48" 
                     FontFamily="Fonts/#Funky Smile"

@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="CameraPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="InputPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

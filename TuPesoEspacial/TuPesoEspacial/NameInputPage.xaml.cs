@@ -40,9 +40,7 @@ namespace TuPesoEspacial
                 ErrorTextBlock.Text = "Por favor, escribe tu nombre.";
                 return;
             }
-
-            // Navega a la página de resultados con el nombre y el peso
-            this.NavigationService.Navigate(new ResultsPage(userName, _earthWeight));
+            this.NavigationService.Navigate(new CameraPage(userName, _earthWeight));
         }
     }
 }

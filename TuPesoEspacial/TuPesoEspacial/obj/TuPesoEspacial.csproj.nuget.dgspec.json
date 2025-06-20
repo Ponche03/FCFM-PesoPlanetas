@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\TuPesoEspacial.csproj": {}
+    "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicación Cálculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\TuPesoEspacial.csproj": {}
   },
   "projects": {
-    "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\TuPesoEspacial.csproj": {
+    "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicación Cálculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\TuPesoEspacial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\TuPesoEspacial.csproj",
+        "projectUniqueName": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicación Cálculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\TuPesoEspacial.csproj",
         "projectName": "TuPesoEspacial",
-        "projectPath": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\TuPesoEspacial.csproj",
+        "projectPath": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicación Cálculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\TuPesoEspacial.csproj",
         "packagesPath": "C:\\Users\\roberto.ponce\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\TuPesoEspacial\\TuPesoEspacial\\obj\\",
+        "outputPath": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicación Cálculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,24 @@
       "frameworks": {
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
+          "dependencies": {
+            "AForge": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "AForge.Video": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "AForge.Video.DirectShow": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

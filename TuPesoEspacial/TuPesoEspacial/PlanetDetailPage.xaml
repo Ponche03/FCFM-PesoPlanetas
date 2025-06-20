@@ -64,8 +64,9 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
 
-                    <!-- Placeholder for user image -->
-                    <Border Width="180" Height="180" Background="#485a6e" CornerRadius="15" Margin="30,0,0,0"/>
+                    <Border x:Name="UserPhotoBorder" Width="180" Height="180" CornerRadius="15" Margin="30,0,0,0">
+
+                    </Border>
 
                     <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="20,0,0,0">
                         <TextBlock Text="{Binding UserName}" FontFamily="Fonts/#Funky Smile" FontSize="40" Foreground="White" Margin="0,0,0,20"/>
@@ -79,7 +80,7 @@
             <Border Width="450" Height="400" CornerRadius="20" Background="#2C3E50">
                 <StackPanel Margin="30">
                     <TextBlock Text="{Binding SelectedPlanet.Name}" FontFamily="Fonts/#Funky Smile" FontSize="48" Foreground="#FED000" Margin="0,0,0,20"/>
-                    <TextBlock Text="{Binding SelectedPlanet.Description}" TextWrapping="Wrap" FontFamily="Cascadia Mono" FontSize="15" Foreground="White"/>
+                    <TextBlock Text="{Binding SelectedPlanet.Description}" TextWrapping="Wrap" FontFamily="Franklin Gothic Demi" FontSize="18" Foreground="White"/>
                 </StackPanel>
             </Border>
         </StackPanel>

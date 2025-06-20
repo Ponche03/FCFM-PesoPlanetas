@@ -6,6 +6,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <PackageIcon>ESTRELLA.png</PackageIcon>
+    <ApplicationIcon>ESTRELLA.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -30,6 +32,24 @@
     <None Remove="Images\Planetas\URANO.png" />
     <None Remove="Images\Planetas\VENUS.png" />
     <None Remove="Images\UANL_logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ESTRELLA.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Fondos\Fondos\ESTRELLA.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AForge" Version="2.2.5" />
+    <PackageReference Include="AForge.Video" Version="2.2.5" />
+    <PackageReference Include="AForge.Video.DirectShow" Version="2.2.5" />
+    <PackageReference Include="System.Drawing.Common" Version="9.0.6" />
   </ItemGroup>
 
   <ItemGroup>
