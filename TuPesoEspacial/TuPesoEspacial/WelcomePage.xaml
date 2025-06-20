@@ -22,13 +22,13 @@
     </Page.Triggers>
 
     <Canvas>
-        
-        
+
+
         <Canvas.Background>
-                <ImageBrush ImageSource="/Images/Fondos/FONDO 1.png" Stretch="UniformToFill"/>
+            <ImageBrush ImageSource="/Images/Fondos/FONDO 1.png" Stretch="UniformToFill"/>
         </Canvas.Background>
 
-        
+
         <StackPanel Width="1920" Canvas.Top="320">
             <TextBlock Text="¿Cuánto pesas en el" FontSize="90" Foreground="White" HorizontalAlignment="Center" FontFamily="Fonts/#Funky Smile"/>
             <TextBlock Text="SISTEMA SOLAR?" FontSize="120" FontWeight="Bold" Foreground="#FED000" HorizontalAlignment="Center" Margin="0,0,0,40" FontFamily="Fonts/#Funky Smile"/>
@@ -61,6 +61,16 @@
                     </Style>
                 </Button.Style>
             </Button>
+
+
+
         </StackPanel>
+
+        <Image Source="/Images/Astronautas/POSE_1.png"
+               Width="320"
+               Height="320"
+               Canvas.Left="1464"
+               Canvas.Top="492" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
     </Canvas>
 </Page>

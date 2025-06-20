@@ -40,7 +40,7 @@
                 </TextBlock.Foreground>
                 <Run Text="Escribe tu"/>
                 <Run Text="nombre" FontWeight="Bold" Foreground="#FED000"/>
-           
+
             </TextBlock>
 
             <!-- Input area for the name -->
@@ -89,5 +89,11 @@
             <!-- Error message TextBlock -->
             <TextBlock x:Name="ErrorTextBlock" Foreground="#FF5252" FontSize="20" Margin="0,20,0,0" FontWeight="Bold" FontFamily="Arial"/>
         </StackPanel>
+
+        <Image Source="/Images/Astronautas/POSE_2.png"
+       Width="320"
+       Height="320"
+       Canvas.Left="101"
+       Canvas.Top="163" HorizontalAlignment="Left" VerticalAlignment="Top"/>
     </Canvas>
 </Page>

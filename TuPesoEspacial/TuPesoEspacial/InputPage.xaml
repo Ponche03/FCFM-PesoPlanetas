@@ -83,5 +83,12 @@
             <!-- Error message TextBlock -->
             <TextBlock x:Name="ErrorTextBlock" Foreground="#FF5252" FontSize="20" Margin="0,20,0,0" FontWeight="Bold" FontFamily="Arial"/>
         </StackPanel>
+
+        <Image Source="/Images/Astronautas/POSE_3.png"
+            Width="320"
+            Height="320"
+            Canvas.Left="1408"
+            Canvas.Top="615" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        
     </Canvas>
 </Page>

@@ -41,7 +41,6 @@ namespace TuPesoEspacial
             LoadPlanetData();
         }
 
-
         private void LoadPlanetData()
         {
             _planets = new List<PlanetInfo>
@@ -137,7 +136,109 @@ namespace TuPesoEspacial
 
         private void PrintButton_Click(object sender, RoutedEventArgs e)
         {
-          
+            PrintDialog printDialog = new PrintDialog();
+
+            if (printDialog.ShowDialog() == true)
+            {
+                // 1. Creamos el contenido visual que queremos imprimir
+                FrameworkElement visualToPrint = CreatePrintVisual();
+
+                // 2. Medimos y organizamos el contenido para que se renderice correctamente
+                visualToPrint.Measure(new Size(printDialog.PrintableAreaWidth, printDialog.PrintableAreaHeight));
+                visualToPrint.Arrange(new Rect(new Point(0, 0), visualToPrint.DesiredSize));
+
+                // 3. Enviamos el contenido visual al diálogo de impresión
+                printDialog.PrintVisual(visualToPrint, "Mis Pesos Cósmicos - Tu Peso Espacial");
+            }
+        }
+
+        private FrameworkElement CreatePrintVisual()
+        {
+            // Contenedor principal con tamaño A4
+            Grid printContainer = new Grid
+            {
+                Width = 794,
+                Height = 1123,
+                Background = new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Images/Fondos/FONDO 2.png")))
+                {
+                    Stretch = Stretch.UniformToFill
+                }
+            };
+
+            // Layout principal dividido en 3 filas
+            Grid layoutGrid = new Grid();
+            layoutGrid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto }); // Foto
+            layoutGrid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto }); // Título
+            layoutGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) }); // Planetas
+
+            // Foto del usuario
+            if (_userImage != null)
+            {
+                var userPhotoBorder = new Border
+                {
+                    Width = 120,
+                    Height = 120,
+                    CornerRadius = new CornerRadius(60),
+                    HorizontalAlignment = HorizontalAlignment.Center,
+                    Margin = new Thickness(0, 20, 0, 10),
+                    Background = new ImageBrush(_userImage)
+                    {
+                        Stretch = Stretch.UniformToFill
+                    }
+                };
+                Grid.SetRow(userPhotoBorder, 0);
+                layoutGrid.Children.Add(userPhotoBorder);
+            }
+
+            // Título
+            TextBlock title = new TextBlock
+            {
+                TextAlignment = TextAlignment.Center,
+                FontSize = 32,
+                FontFamily = new FontFamily(new Uri("pack://application:,,,/"), "./Fonts/#Funky Smile"),
+                TextWrapping = TextWrapping.Wrap,
+                Margin = new Thickness(40, 0, 40, 20)
+            };
+            title.Inlines.Add(new Run { Text = "Hola ", Foreground = Brushes.White });
+            title.Inlines.Add(new Run { Text = this.UserName, FontWeight = FontWeights.Bold, Foreground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FED000")) });
+            title.Inlines.Add(new Run { Text = ". Estos son tus pesos cósmicos.", Foreground = Brushes.White });
+            Grid.SetRow(title, 1);
+            layoutGrid.Children.Add(title);
+
+            // 👉 Cálculo dinámico del alto de cada tarjeta
+            int columns = 2;
+            int rows = (int)Math.Ceiling((double)_planets.Count / columns);
+            double availableHeight = 1123 - 250; // Resta aproximada de espacio usado por foto + título
+            double itemHeight = availableHeight / rows;
+
+            // Estilo para cada ítem del ItemsControl
+            Style itemContainerStyle = new Style(typeof(ContentPresenter));
+            itemContainerStyle.Setters.Add(new Setter(FrameworkElement.HeightProperty, itemHeight));
+            itemContainerStyle.Setters.Add(new Setter(FrameworkElement.MarginProperty, new Thickness(10, 5, 10, 5)));
+
+            // Control de planetas con UniformGrid
+            ItemsControl planetsControl = new ItemsControl
+            {
+                ItemsSource = _planets,
+                ItemTemplate = (DataTemplate)this.Resources["PlanetCardTemplate"],
+                ItemContainerStyle = itemContainerStyle
+            };
+
+            // Panel: UniformGrid de 2 columnas
+            ItemsPanelTemplate itemsPanel = new ItemsPanelTemplate();
+            FrameworkElementFactory uniformGridFactory = new FrameworkElementFactory(typeof(UniformGrid));
+            uniformGridFactory.SetValue(UniformGrid.ColumnsProperty, columns);
+            itemsPanel.VisualTree = uniformGridFactory;
+            planetsControl.ItemsPanel = itemsPanel;
+
+            // Agregar a layout
+            planetsControl.Margin = new Thickness(40, 10, 40, 40);
+            Grid.SetRow(planetsControl, 2);
+            layoutGrid.Children.Add(planetsControl);
+
+            printContainer.Children.Add(layoutGrid);
+
+            return printContainer;
         }
 
     }
