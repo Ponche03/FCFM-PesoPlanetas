@@ -34,7 +34,7 @@
                     <TextBlock FontSize="16" HorizontalAlignment="Center" Foreground="White" Margin="0,10,0,5" FontFamily="Fonts/#Funky Smile">
                 <Run Text="Tu peso seria"/>
                     </TextBlock>
-                    <TextBlock Text="{Binding CalculatedWeight}" FontSize="36" FontWeight="Bold" HorizontalAlignment="Center" Foreground="White" FontFamily="Franklin Gothic Demi"/>
+                    <TextBlock Text="{Binding CalculatedWeight}" FontSize="36" FontWeight="Bold" HorizontalAlignment="Center" Foreground="White" FontFamily="Franklin Gothic Heavy"/>
                 </StackPanel>
             </Border>
         </DataTemplate>
@@ -146,4 +146,5 @@
         </Button>
 
     </Canvas>
+    
 </Page>

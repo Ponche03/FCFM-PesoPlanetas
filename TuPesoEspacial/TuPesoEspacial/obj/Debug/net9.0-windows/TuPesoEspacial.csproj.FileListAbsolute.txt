@@ -129,3 +129,46 @@ C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\Aplicación Cálculo de Planeta
 C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\Aplicación Cálculo de Planetas\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.genruntimeconfig.cache
 C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\Aplicación Cálculo de Planetas\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\ref\TuPesoEspacial.dll
 C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\Aplicación Cálculo de Planetas\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial_Content.g.cs
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\TuPesoEspacial.exe
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\TuPesoEspacial.deps.json
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\TuPesoEspacial.runtimeconfig.json
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\TuPesoEspacial.dll
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\TuPesoEspacial.pdb
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\AForge.dll
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\AForge.Video.dll
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\AForge.Video.DirectShow.dll
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\Microsoft.Win32.SystemEvents.dll
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\System.Drawing.Common.dll
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\System.Private.Windows.Core.dll
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.csproj.AssemblyReference.cache
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\WelcomePage.baml
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\CameraPage.g.cs
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\InputPage.g.cs
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\NameInputPage.g.cs
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\PlanetDetailPage.g.cs
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\ResultsPage.g.cs
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\WelcomePage.g.cs
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial_Content.g.cs
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial_MarkupCompile.cache
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial_MarkupCompile.lref
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\CameraPage.baml
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\InputPage.baml
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\NameInputPage.baml
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\PlanetDetailPage.baml
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\ResultsPage.baml
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.g.resources
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.AssemblyInfoInputs.cache
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.AssemblyInfo.cs
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.csproj.CoreCompileInputs.cache
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.sourcelink.json
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEs.8DF5495B.Up2Date
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.dll
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\refint\TuPesoEspacial.dll
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.pdb
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\TuPesoEspacial.genruntimeconfig.cache
+C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\ref\TuPesoEspacial.dll

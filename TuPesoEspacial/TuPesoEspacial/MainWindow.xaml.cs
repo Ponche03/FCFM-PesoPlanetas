@@ -21,23 +21,26 @@ namespace TuPesoEspacial
             MainFrame.Navigate(new WelcomePage());
         }
 
-        private void Window_PreviewKeyDown(object sender, KeyEventArgs e)
+        private void Window_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.Key == Key.P)
+            if (e.Key == Key.F11)
             {
-                if (this.WindowStyle == WindowStyle.None)
+                if (WindowStyle != WindowStyle.None)
                 {
-                    this.WindowStyle = WindowStyle.SingleBorderWindow;
-                    this.WindowState = WindowState.Normal;
-                    e.Handled = true; 
+                    // Enter fullscreen
+                    WindowStyle = WindowStyle.None;
+                    WindowState = WindowState.Maximized;
+                    Topmost = true;
                 }
                 else
                 {
-                    this.WindowStyle = WindowStyle.None;
-                    this.WindowState = WindowState.Maximized;
-                    e.Handled = true;
+                    // Exit fullscreen
+                    WindowStyle = WindowStyle.SingleBorderWindow;
+                    WindowState = WindowState.Normal;
+                    Topmost = false;
                 }
             }
         }
+
     }
 }

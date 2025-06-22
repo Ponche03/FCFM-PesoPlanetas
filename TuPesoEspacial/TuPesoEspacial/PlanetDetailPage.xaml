@@ -80,7 +80,7 @@
             <Border Width="450" Height="400" CornerRadius="20" Background="#2C3E50">
                 <StackPanel Margin="30">
                     <TextBlock Text="{Binding SelectedPlanet.Name}" FontFamily="Fonts/#Funky Smile" FontSize="48" Foreground="#FED000" Margin="0,0,0,20"/>
-                    <TextBlock Text="{Binding SelectedPlanet.Description}" TextWrapping="Wrap" FontFamily="Franklin Gothic Demi" FontSize="18" Foreground="White"/>
+                    <TextBlock Text="{Binding SelectedPlanet.Description}" TextAlignment="Justify" TextWrapping="Wrap" FontFamily="Franklin Gothic Demi" FontSize="18" Foreground="White"/>
                 </StackPanel>
             </Border>
         </StackPanel>

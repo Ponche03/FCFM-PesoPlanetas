@@ -8,7 +8,7 @@
       d:DesignHeight="1080" d:DesignWidth="1920"
       Title="NameInputPage">
 
-    <!-- This is the same fade-in animation from the WelcomePage -->
+    <!-- Fade-in animation -->
     <Page.Triggers>
         <EventTrigger RoutedEvent="Page.Loaded">
             <BeginStoryboard>
@@ -23,77 +23,88 @@
         </EventTrigger>
     </Page.Triggers>
 
-    <!-- We use a Canvas for precise positioning, same as the other pages -->
-    <Canvas>
-        <Canvas.Background>
-            <ImageBrush ImageSource="/Images/Fondos/FONDO 3.png" Stretch="UniformToFill"/>
-        </Canvas.Background>
+    <!-- Scalable layout -->
+    <Viewbox Stretch="UniformToFill">
+        <Grid Width="1920" Height="1080">
+            <!-- Background -->
+            <Grid.Background>
+                <ImageBrush ImageSource="/Images/Fondos/FONDO 3.png" Stretch="UniformToFill"/>
+            </Grid.Background>
 
+            <!-- Astronaut image -->
+            <Image Source="/Images/Astronautas/POSE_2.png"
+                   Width="320"
+                   Height="320"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Margin="100,160,0,0"/>
 
-        <!-- The main content is in a centered StackPanel -->
-        <StackPanel Width="1920" Canvas.Top="320" VerticalAlignment="Center" HorizontalAlignment="Center" TextBlock.TextAlignment="Center">
+            <!-- Main StackPanel -->
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" TextBlock.TextAlignment="Center">
+                <!-- Title -->
+                <TextBlock FontSize="90" Margin="0,0,0,30" FontFamily="Fonts/#Funky Smile">
+                    <TextBlock.Foreground>
+                        <SolidColorBrush Color="White" />
+                    </TextBlock.Foreground>
+                    <Run Text="Escribe tu"/>
+                    <Run Text=" nombre" FontWeight="Bold" Foreground="#FED000"/>
+                </TextBlock>
 
-            <!-- The main title, using the same font and colors -->
-            <TextBlock FontSize="90" Margin="0,0,0,30" FontFamily="Fonts/#Funky Smile">
-                <TextBlock.Foreground>
-                    <SolidColorBrush Color="White" />
-                </TextBlock.Foreground>
-                <Run Text="Escribe tu"/>
-                <Run Text="nombre" FontWeight="Bold" Foreground="#FED000"/>
+                <!-- Name input -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <TextBox x:Name="NameTextBox"
+                             Width="600"
+                             FontSize="48"
+                             FontFamily="Fonts/#Funky Smile"
+                             Foreground="White"
+                             Background="Transparent"
+                             BorderThickness="0,0,0,4"
+                             CaretBrush="White"
+                             TextAlignment="Center"
+                             BorderBrush="#FED000"/>
+                </StackPanel>
 
-            </TextBlock>
+                <!-- Button -->
+                <Button x:Name="NextButton" 
+                        Content="SIGUIENTE" 
+                        Click="NextButton_Click" 
+                        FontSize="48" 
+                        FontFamily="Fonts/#Funky Smile"
+                        Cursor="Hand" 
+                        HorizontalAlignment="Center"
+                        Width="400"
+                        Height="100"
+                        Margin="0,80,0,0">
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Background" Value="#FED000"/>
+                            <Setter Property="Foreground" Value="#2C3E50"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border Background="{TemplateBinding Background}" CornerRadius="20">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#F39C12"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
 
-            <!-- Input area for the name -->
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                <!-- The TextBox is styled to fit the dark theme -->
-                <TextBox x:Name="NameTextBox" Width="600" FontSize="48" FontFamily="Fonts/#Funky Smile" Foreground="White" Background="Transparent" BorderThickness="0,0,0,4" CaretBrush="White" TextAlignment="Center">
-                    <TextBox.BorderBrush>
-                        <SolidColorBrush Color="#FED000" />
-                    </TextBox.BorderBrush>
-                </TextBox>
+                <!-- Error message -->
+                <TextBlock x:Name="ErrorTextBlock"
+                           Foreground="#FF5252"
+                           FontSize="20"
+                           Margin="0,20,0,0"
+                           FontWeight="Bold"
+                           FontFamily="Arial"/>
             </StackPanel>
-
-            <!-- The button now matches the other pages' style -->
-            <Button x:Name="NextButton" 
-                    Content="SIGUIENTE" 
-                    Click="NextButton_Click" 
-                    FontSize="48" 
-                    FontFamily="Fonts/#Funky Smile"
-                    Cursor="Hand" 
-                    HorizontalAlignment="Center"
-                    Width="400"
-                    Height="100"
-                    Margin="0,80,0,0">
-                <Button.Style>
-                    <Style TargetType="Button">
-                        <Setter Property="Background" Value="#FED000"/>
-                        <Setter Property="Foreground" Value="#2C3E50"/>
-                        <Setter Property="Template">
-                            <Setter.Value>
-                                <ControlTemplate TargetType="Button">
-                                    <Border Background="{TemplateBinding Background}" CornerRadius="20">
-                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                    </Border>
-                                </ControlTemplate>
-                            </Setter.Value>
-                        </Setter>
-                        <Style.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#F39C12"/>
-                            </Trigger>
-                        </Style.Triggers>
-                    </Style>
-                </Button.Style>
-            </Button>
-
-            <!-- Error message TextBlock -->
-            <TextBlock x:Name="ErrorTextBlock" Foreground="#FF5252" FontSize="20" Margin="0,20,0,0" FontWeight="Bold" FontFamily="Arial"/>
-        </StackPanel>
-
-        <Image Source="/Images/Astronautas/POSE_2.png"
-       Width="320"
-       Height="320"
-       Canvas.Left="101"
-       Canvas.Top="163" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-    </Canvas>
+        </Grid>
+    </Viewbox>
 </Page>

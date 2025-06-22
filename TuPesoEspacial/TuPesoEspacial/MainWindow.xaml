@@ -9,10 +9,14 @@
         Height="1080" 
         Width="1920"
         WindowStartupLocation="CenterScreen"
-        ResizeMode="CanMinimize"
+        ResizeMode="CanResize"
+        KeyDown="Window_KeyDown"
+        Focusable="True"
+        FocusManager.FocusedElement="{Binding RelativeSource={RelativeSource Self}}"
         >
     
     <Grid>
         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
     </Grid>
-</Window>
+
+    </Window>

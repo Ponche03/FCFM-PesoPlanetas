@@ -21,56 +21,63 @@
         </EventTrigger>
     </Page.Triggers>
 
-    <Canvas>
+    <Viewbox Stretch="UniformToFill">
+        <Grid Width="1920" Height="1080">
+            <Grid.Background>
+                <ImageBrush ImageSource="/Images/Fondos/FONDO 1.png" Stretch="UniformToFill"/>
+            </Grid.Background>
 
+            <StackPanel VerticalAlignment="Center">
+                <TextBlock Text="¿Cuánto pesas en el" 
+                           FontSize="90" 
+                           Foreground="White" 
+                           HorizontalAlignment="Center" 
+                           FontFamily="Fonts/#Funky Smile"/>
+                <TextBlock Text="SISTEMA SOLAR?" 
+                           FontSize="120" 
+                           FontWeight="Bold" 
+                           Foreground="#FED000" 
+                           HorizontalAlignment="Center" 
+                           Margin="0,0,0,40" 
+                           FontFamily="Fonts/#Funky Smile"/>
+                <Button x:Name="StartButton" 
+                        Content="EMPEZAR" 
+                        Click="StartButton_Click" 
+                        FontSize="48" 
+                        FontFamily="Fonts/#Funky Smile"
+                        Cursor="Hand"
+                        Width="400"
+                        Height="100"
+                        HorizontalAlignment="Center">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="#FED000"/>
+                            <Setter Property="Foreground" Value="#2C3E50"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Border Background="{TemplateBinding Background}" CornerRadius="20">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#F39C12"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+            </StackPanel>
 
-        <Canvas.Background>
-            <ImageBrush ImageSource="/Images/Fondos/FONDO 1.png" Stretch="UniformToFill"/>
-        </Canvas.Background>
-
-
-        <StackPanel Width="1920" Canvas.Top="320">
-            <TextBlock Text="¿Cuánto pesas en el" FontSize="90" Foreground="White" HorizontalAlignment="Center" FontFamily="Fonts/#Funky Smile"/>
-            <TextBlock Text="SISTEMA SOLAR?" FontSize="120" FontWeight="Bold" Foreground="#FED000" HorizontalAlignment="Center" Margin="0,0,0,40" FontFamily="Fonts/#Funky Smile"/>
-            <Button x:Name="StartButton" 
-                    Content="EMPEZAR" 
-                    Click="StartButton_Click" 
-                    FontSize="48" 
-                    FontFamily="Fonts/#Funky Smile"
-                    Cursor="Hand"
-                    Width="400"
-                    Height="100">
-                <Button.Style>
-                    <Style TargetType="{x:Type Button}">
-                        <Setter Property="Background" Value="#FED000"/>
-                        <Setter Property="Foreground" Value="#2C3E50"/>
-                        <Setter Property="Template">
-                            <Setter.Value>
-                                <ControlTemplate TargetType="{x:Type Button}">
-                                    <Border Background="{TemplateBinding Background}" CornerRadius="20">
-                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                    </Border>
-                                </ControlTemplate>
-                            </Setter.Value>
-                        </Setter>
-                        <Style.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#F39C12"/>
-                            </Trigger>
-                        </Style.Triggers>
-                    </Style>
-                </Button.Style>
-            </Button>
-
-
-
-        </StackPanel>
-
-        <Image Source="/Images/Astronautas/POSE_1.png"
-               Width="320"
-               Height="320"
-               Canvas.Left="1464"
-               Canvas.Top="492" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-
-    </Canvas>
+            <Image Source="/Images/Astronautas/POSE_1.png"
+                   Width="320"
+                   Height="320"
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Bottom"
+                   Margin="0,0,80,220"/>
+        </Grid>
+    </Viewbox>
 </Page>
