@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "6U035hT/jhI=",
+  "dgSpecHash": "zXU0GacsT1M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rober\\OneDrive\\Desktop\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\TuPesoEspacial.csproj",
+  "projectFilePath": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicación Cálculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\TuPesoEspacial.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rober\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
-    "C:\\Users\\rober\\.nuget\\packages\\aforge.video\\2.2.5\\aforge.video.2.2.5.nupkg.sha512",
-    "C:\\Users\\rober\\.nuget\\packages\\aforge.video.directshow\\2.2.5\\aforge.video.directshow.2.2.5.nupkg.sha512",
-    "C:\\Users\\rober\\.nuget\\packages\\microsoft.win32.systemevents\\9.0.6\\microsoft.win32.systemevents.9.0.6.nupkg.sha512",
-    "C:\\Users\\rober\\.nuget\\packages\\system.drawing.common\\9.0.6\\system.drawing.common.9.0.6.nupkg.sha512"
+    "C:\\Users\\roberto.ponce\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
+    "C:\\Users\\roberto.ponce\\.nuget\\packages\\aforge.video\\2.2.5\\aforge.video.2.2.5.nupkg.sha512",
+    "C:\\Users\\roberto.ponce\\.nuget\\packages\\aforge.video.directshow\\2.2.5\\aforge.video.directshow.2.2.5.nupkg.sha512",
+    "C:\\Users\\roberto.ponce\\.nuget\\packages\\microsoft.win32.systemevents\\9.0.6\\microsoft.win32.systemevents.9.0.6.nupkg.sha512",
+    "C:\\Users\\roberto.ponce\\.nuget\\packages\\system.drawing.common\\9.0.6\\system.drawing.common.9.0.6.nupkg.sha512"
   ],
   "logs": [
     {

@@ -43,4 +43,5 @@ namespace TuPesoEspacial
             this.NavigationService.Navigate(new CameraPage(userName, _earthWeight));
         }
     }
+
 }
