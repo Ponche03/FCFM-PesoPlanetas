@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TuPesoEspacial")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af770e83cbe467df7196d437f3d926f0b714e62f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67597c639efd96c0067e0614792bc27685a24076")]
 [assembly: System.Reflection.AssemblyProductAttribute("TuPesoEspacial")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TuPesoEspacial")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

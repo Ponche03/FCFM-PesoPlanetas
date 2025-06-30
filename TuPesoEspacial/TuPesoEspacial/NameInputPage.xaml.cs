@@ -15,21 +15,16 @@ using System.Windows.Shapes;
 
 namespace TuPesoEspacial
 {
-    /// <summary>
-    /// Interaction logic for NameInputPage.xaml
-    /// </summary>
+
     public partial class NameInputPage : Page
     {
         private readonly double _earthWeight;
-
-        // Constructor que recibe el peso de la página anterior
         public NameInputPage(double earthWeight)
         {
             InitializeComponent();
             _earthWeight = earthWeight;
             Loaded += (s, e) => NameTextBox.Focus();
         }
-
         private void NextButton_Click(object sender, RoutedEventArgs e)
         {
             ErrorTextBlock.Text = "";
@@ -42,6 +37,16 @@ namespace TuPesoEspacial
             }
             this.NavigationService.Navigate(new CameraPage(userName, _earthWeight));
         }
+        private void NameTextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                NextButton_Click(this, new RoutedEventArgs());
+            }
+        }
+
+
+
     }
 
 }

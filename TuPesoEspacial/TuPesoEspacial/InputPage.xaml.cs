@@ -15,15 +15,11 @@ using System.Windows.Shapes;
 
 namespace TuPesoEspacial
 {
-    /// <summary>
-    /// Interaction logic for InputPage.xaml
-    /// </summary>
     public partial class InputPage : Page
     {
         public InputPage()
         {
             InitializeComponent();
-            // Enfoca el cuadro de texto del peso al cargar la página
             Loaded += (s, e) => WeightTextBox.Focus();
         }
 
@@ -36,7 +32,6 @@ namespace TuPesoEspacial
             {
                 if (earthWeight > 0)
                 {
-                    // NAVEGA a la página de nombre, pasando el peso.
                     this.NavigationService.Navigate(new NameInputPage(earthWeight));
                 }
                 else
@@ -49,5 +44,14 @@ namespace TuPesoEspacial
                 ErrorTextBlock.Text = "Por favor, introduce un número válido para tu peso.";
             }
         }
+
+        private void WeightTextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                CalculateButton_Click(this, new RoutedEventArgs());
+            }
+        }
+
     }
 }

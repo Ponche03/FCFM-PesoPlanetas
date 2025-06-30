@@ -61,7 +61,8 @@
                              BorderThickness="0,0,0,4"
                              CaretBrush="White"
                              TextAlignment="Center"
-                             BorderBrush="#FED000"/>
+                             BorderBrush="#FED000"
+                             KeyDown="NameTextBox_KeyDown"/>
                 </StackPanel>
 
                 <!-- Button -->

@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\aplicaci\u00F3n c\u00E1lculo de planetas\\fcfm-pesoplanetas\\tupesoespacial\\tupesoespacial\\resultspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\resultspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\aplicaci\u00F3n c\u00E1lculo de planetas\\fcfm-pesoplanetas\\tupesoespacial\\tupesoespacial\\planetdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\planetdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\aplicaci\u00F3n c\u00E1lculo de planetas\\fcfm-pesoplanetas\\tupesoespacial\\tupesoespacial\\resultspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\resultspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\aplicaci\u00F3n c\u00E1lculo de planetas\\fcfm-pesoplanetas\\tupesoespacial\\tupesoespacial\\nameinputpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\nameinputpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\aplicaci\u00F3n c\u00E1lculo de planetas\\fcfm-pesoplanetas\\tupesoespacial\\tupesoespacial\\planetdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\planetdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\aplicaci\u00F3n c\u00E1lculo de planetas\\fcfm-pesoplanetas\\tupesoespacial\\tupesoespacial\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\aplicaci\u00F3n c\u00E1lculo de planetas\\fcfm-pesoplanetas\\tupesoespacial\\tupesoespacial\\nameinputpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -39,6 +19,26 @@
       "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\aplicaci\u00F3n c\u00E1lculo de planetas\\fcfm-pesoplanetas\\tupesoespacial\\tupesoespacial\\planetdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\planetdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\aplicaci\u00F3n c\u00E1lculo de planetas\\fcfm-pesoplanetas\\tupesoespacial\\tupesoespacial\\resultspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\resultspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\aplicaci\u00F3n c\u00E1lculo de planetas\\fcfm-pesoplanetas\\tupesoespacial\\tupesoespacial\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\aplicaci\u00F3n c\u00E1lculo de planetas\\fcfm-pesoplanetas\\tupesoespacial\\tupesoespacial\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\aplicaci\u00F3n c\u00E1lculo de planetas\\fcfm-pesoplanetas\\tupesoespacial\\tupesoespacial\\resultspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\resultspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\aplicaci\u00F3n c\u00E1lculo de planetas\\fcfm-pesoplanetas\\tupesoespacial\\tupesoespacial\\inputpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\inputpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -47,8 +47,12 @@
       "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\inputpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\aplicaci\u00F3n c\u00E1lculo de planetas\\fcfm-pesoplanetas\\tupesoespacial\\tupesoespacial\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\aplicaci\u00F3n c\u00E1lculo de planetas\\fcfm-pesoplanetas\\tupesoespacial\\tupesoespacial\\inputpage.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\inputpage.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\aplicaci\u00F3n c\u00E1lculo de planetas\\fcfm-pesoplanetas\\tupesoespacial\\tupesoespacial\\planetdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|solutionrelative:tupesoespacial\\planetdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17BB1D01-3004-43DC-B39C-60949DF5C41C}|TuPesoEspacial\\TuPesoEspacial.csproj|c:\\users\\roberto.ponce\\onedrive - epicor\\desktop\\aplicaci\u00F3n c\u00E1lculo de planetas\\fcfm-pesoplanetas\\tupesoespacial\\tupesoespacial\\images\\astronautas\\pose_1.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
@@ -74,31 +78,18 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ResultsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\ResultsPage.xaml.cs",
-              "RelativeDocumentMoniker": "TuPesoEspacial\\ResultsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\ResultsPage.xaml.cs",
-              "RelativeToolTip": "TuPesoEspacial\\ResultsPage.xaml.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAADwv08BAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T00:19:53.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ResultsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\ResultsPage.xaml",
-              "RelativeDocumentMoniker": "TuPesoEspacial\\ResultsPage.xaml",
-              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\ResultsPage.xaml",
-              "RelativeToolTip": "TuPesoEspacial\\ResultsPage.xaml",
+              "DocumentIndex": 1,
+              "Title": "NameInputPage.xaml",
+              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\NameInputPage.xaml",
+              "RelativeDocumentMoniker": "TuPesoEspacial\\NameInputPage.xaml",
+              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\NameInputPage.xaml",
+              "RelativeToolTip": "TuPesoEspacial\\NameInputPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-19T00:00:21.805Z",
+              "WhenOpened": "2025-06-19T00:00:28.246Z",
               "EditorCaption": ""
             },
             {
@@ -110,36 +101,22 @@
               "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\PlanetDetailPage.xaml",
               "RelativeToolTip": "TuPesoEspacial\\PlanetDetailPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-19T00:00:24.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlanetDetailPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\PlanetDetailPage.xaml.cs",
-              "RelativeDocumentMoniker": "TuPesoEspacial\\PlanetDetailPage.xaml.cs",
-              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\PlanetDetailPage.xaml.cs",
-              "RelativeToolTip": "TuPesoEspacial\\PlanetDetailPage.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T23:31:14.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CameraPage.xaml",
-              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\CameraPage.xaml",
-              "RelativeDocumentMoniker": "TuPesoEspacial\\CameraPage.xaml",
-              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\CameraPage.xaml",
-              "RelativeToolTip": "TuPesoEspacial\\CameraPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-20T18:31:03.921Z"
+              "WhenOpened": "2025-06-19T00:00:24.693Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "ResultsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\ResultsPage.xaml",
+              "RelativeDocumentMoniker": "TuPesoEspacial\\ResultsPage.xaml",
+              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\ResultsPage.xaml",
+              "RelativeToolTip": "TuPesoEspacial\\ResultsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-19T00:00:21.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "WelcomePage.xaml",
               "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\WelcomePage.xaml",
               "RelativeDocumentMoniker": "TuPesoEspacial\\WelcomePage.xaml",
@@ -150,32 +127,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "NameInputPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\NameInputPage.xaml.cs",
               "RelativeDocumentMoniker": "TuPesoEspacial\\NameInputPage.xaml.cs",
-              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\NameInputPage.xaml.cs",
-              "RelativeToolTip": "TuPesoEspacial\\NameInputPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\NameInputPage.xaml.cs*",
+              "RelativeToolTip": "TuPesoEspacial\\NameInputPage.xaml.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwCcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T23:10:11.176Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "TuPesoEspacial\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\MainWindow.xaml.cs",
-              "RelativeToolTip": "TuPesoEspacial\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAuwCsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T23:14:53.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\MainWindow.xaml",
               "RelativeDocumentMoniker": "TuPesoEspacial\\MainWindow.xaml",
@@ -186,53 +151,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "POSE_1.png - PNG [2000x2000, 32 bit, PNG]",
-              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\Images\\Astronautas\\POSE_1.png",
-              "RelativeDocumentMoniker": "TuPesoEspacial\\Images\\Astronautas\\POSE_1.png",
-              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\Images\\Astronautas\\POSE_1.png - PNG [2000x2000, 32 bit, PNG]",
-              "RelativeToolTip": "TuPesoEspacial\\Images\\Astronautas\\POSE_1.png - PNG [2000x2000, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-06-20T18:25:49.966Z",
-              "EditorCaption": " - PNG [2000x2000, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NameInputPage.xaml",
-              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\NameInputPage.xaml",
-              "RelativeDocumentMoniker": "TuPesoEspacial\\NameInputPage.xaml",
-              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\NameInputPage.xaml",
-              "RelativeToolTip": "TuPesoEspacial\\NameInputPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-19T00:00:28.246Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "InputPage.xaml",
-              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\InputPage.xaml",
-              "RelativeDocumentMoniker": "TuPesoEspacial\\InputPage.xaml",
-              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\InputPage.xaml",
-              "RelativeToolTip": "TuPesoEspacial\\InputPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-20T18:31:05.575Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "InputPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\InputPage.xaml.cs",
-              "RelativeDocumentMoniker": "TuPesoEspacial\\InputPage.xaml.cs",
-              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\InputPage.xaml.cs",
-              "RelativeToolTip": "TuPesoEspacial\\InputPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TuPesoEspacial\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TuPesoEspacial\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwCoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T23:11:34.041Z"
+              "WhenOpened": "2025-06-22T23:14:53.953Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "WelcomePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\WelcomePage.xaml.cs",
               "RelativeDocumentMoniker": "TuPesoEspacial\\WelcomePage.xaml.cs",
@@ -244,7 +176,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 8,
+              "Title": "ResultsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\ResultsPage.xaml.cs",
+              "RelativeDocumentMoniker": "TuPesoEspacial\\ResultsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\ResultsPage.xaml.cs",
+              "RelativeToolTip": "TuPesoEspacial\\ResultsPage.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T00:19:53.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InputPage.xaml",
+              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\InputPage.xaml",
+              "RelativeDocumentMoniker": "TuPesoEspacial\\InputPage.xaml",
+              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\InputPage.xaml",
+              "RelativeToolTip": "TuPesoEspacial\\InputPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-20T18:31:05.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InputPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\InputPage.xaml.cs",
+              "RelativeDocumentMoniker": "TuPesoEspacial\\InputPage.xaml.cs",
+              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\InputPage.xaml.cs",
+              "RelativeToolTip": "TuPesoEspacial\\InputPage.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T23:11:34.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CameraPage.xaml",
+              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\CameraPage.xaml",
+              "RelativeDocumentMoniker": "TuPesoEspacial\\CameraPage.xaml",
+              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\CameraPage.xaml",
+              "RelativeToolTip": "TuPesoEspacial\\CameraPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-20T18:31:03.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlanetDetailPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\PlanetDetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "TuPesoEspacial\\PlanetDetailPage.xaml.cs",
+              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\PlanetDetailPage.xaml.cs",
+              "RelativeToolTip": "TuPesoEspacial\\PlanetDetailPage.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T23:31:14.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "POSE_1.png - PNG [2000x2000, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\Images\\Astronautas\\POSE_1.png",
+              "RelativeDocumentMoniker": "TuPesoEspacial\\Images\\Astronautas\\POSE_1.png",
+              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\Images\\Astronautas\\POSE_1.png - PNG [2000x2000, 32 bit, PNG]",
+              "RelativeToolTip": "TuPesoEspacial\\Images\\Astronautas\\POSE_1.png - PNG [2000x2000, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-20T18:25:49.966Z",
+              "EditorCaption": " - PNG [2000x2000, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "TuPesoEspacial",
               "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\TuPesoEspacial.csproj",
               "RelativeDocumentMoniker": "TuPesoEspacial\\TuPesoEspacial.csproj",
@@ -255,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "CameraPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\CameraPage.xaml.cs",
               "RelativeDocumentMoniker": "TuPesoEspacial\\CameraPage.xaml.cs",
@@ -264,6 +267,40 @@
               "ViewState": "AgIAACoAAAAAAAAAAAAowEgAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T21:37:15.662Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "b902f4f3-e2d5-4891-b611-6fb18b35c6de",
+        "Display": 0,
+        "X": 0,
+        "Y": 65,
+        "Width": 800,
+        "Height": 600,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InputPage.xaml",
+              "DocumentMoniker": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\InputPage.xaml",
+              "RelativeDocumentMoniker": "TuPesoEspacial\\InputPage.xaml",
+              "ToolTip": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicaci\u00F3n C\u00E1lculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\InputPage.xaml",
+              "RelativeToolTip": "TuPesoEspacial\\InputPage.xaml",
+              "ViewState": "AgIAACcAAAAAAAAAAIAwwDYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-25T21:11:25.851Z",
+              "EditorCaption": ""
             }
           ]
         }

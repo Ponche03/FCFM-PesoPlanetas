@@ -60,7 +60,9 @@
                              Background="Transparent"
                              BorderThickness="0,0,0,4"
                              CaretBrush="White"
+                             KeyDown="WeightTextBox_KeyDown"
                              BorderBrush="#FED000"/>
+                    
                     <TextBlock Text="KG"
                                FontSize="48"
                                FontFamily="Fonts/#Funky Smile"
