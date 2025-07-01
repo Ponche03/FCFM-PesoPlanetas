@@ -24,6 +24,8 @@
     <None Remove="Images\Fondos\FONDO 3.png" />
     <None Remove="Images\Fondos\FONDO 4.png" />
     <None Remove="Images\Fondos\FONDO_SIN_ESTRELLAS.png" />
+    <None Remove="Images\Iconos\QR_Code.png" />
+    <None Remove="Images\Iconos\QR_Code_Inverted.png" />
     <None Remove="Images\Planetas\JUPITER.png" />
     <None Remove="Images\Planetas\LUNA.png" />
     <None Remove="Images\Planetas\MARTE.png" />
@@ -34,6 +36,7 @@
     <None Remove="Images\Planetas\TIERRA.png" />
     <None Remove="Images\Planetas\URANO.png" />
     <None Remove="Images\Planetas\VENUS.png" />
+    <None Remove="Images\QR-Code.svg" />
     <None Remove="Images\UANL_logo.png" />
   </ItemGroup>
 
@@ -45,6 +48,9 @@
     <PackageReference Include="AForge" Version="2.2.5" />
     <PackageReference Include="AForge.Video" Version="2.2.5" />
     <PackageReference Include="AForge.Video.DirectShow" Version="2.2.5" />
+    <PackageReference Include="Google.Apis.Auth" Version="1.70.0" />
+    <PackageReference Include="Google.Apis.Drive.v3" Version="1.69.0.3783" />
+    <PackageReference Include="QRCoder" Version="1.6.0" />
     <PackageReference Include="System.Drawing.Common" Version="9.0.6" />
   </ItemGroup>
 
@@ -61,6 +67,8 @@
     <Resource Include="Images\Fondos\FONDO 3.png" />
     <Resource Include="Images\Fondos\FONDO 4.png" />
     <Resource Include="Images\Fondos\FONDO_SIN_ESTRELLAS.png" />
+    <Resource Include="Images\Iconos\QR_Code.png" />
+    <Resource Include="Images\Iconos\QR_Code_Inverted.png" />
     <Resource Include="Images\Planetas\JUPITER.png" />
     <Resource Include="Images\Planetas\LUNA.png" />
     <Resource Include="Images\Planetas\MARTE.png" />
@@ -71,6 +79,7 @@
     <Resource Include="Images\Planetas\TIERRA.png" />
     <Resource Include="Images\Planetas\URANO.png" />
     <Resource Include="Images\Planetas\VENUS.png" />
+    <Resource Include="Images\Iconos\QR_Code.svg" />
     <Resource Include="Images\UANL_logo.png" />
   </ItemGroup>
 

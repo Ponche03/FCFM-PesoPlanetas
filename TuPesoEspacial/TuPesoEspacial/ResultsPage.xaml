@@ -145,6 +145,35 @@
             </Button.Style>
         </Button>
 
+        <!-- QR Code Button -->
+        <Button x:Name="QRCodeButton" 
+        Click="QRCodeButton_Click"
+        Canvas.Left="40" Canvas.Top="991"
+        Width="60" Height="60"
+        Cursor="Hand"
+        Background="Transparent"
+        BorderThickness="0">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="{TemplateBinding Background}" Margin="40,-16,-40,16">
+                                    <Image Source="Images/Iconos/QR_Code_Inverted.png" Width="36" Height="36" Margin="12,16,12,8"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Opacity" Value="0.7"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+
+
     </Canvas>
     
 </Page>

@@ -10,6 +10,20 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Markup;
+using System.IO;
+
+using Google.Apis.Auth.OAuth2;
+using Google.Apis.Drive.v3;
+using Google.Apis.Util.Store;
+using Google.Apis.Services;
+using Google.Apis.Drive.v3.Data;
+using QRCoder;
+using System.Drawing;
+using Color = System.Windows.Media.Color;
+using FontFamily = System.Windows.Media.FontFamily;
+using Brushes = System.Windows.Media.Brushes;
+using Size = System.Windows.Size;
+using Image = System.Windows.Controls.Image;
 
 
 namespace TuPesoEspacial
@@ -161,7 +175,7 @@ namespace TuPesoEspacial
             // Imagen del usuario
             if (_userImage != null)
             {
-                Image userImageControl = new Image
+                System.Windows.Controls.Image userImageControl = new System.Windows.Controls.Image
                 {
                     Source = _userImage,
                     Width = 100,
@@ -174,7 +188,7 @@ namespace TuPesoEspacial
                 // Make it perfectly round
                 userImageControl.Clip = new EllipseGeometry
                 {
-                    Center = new Point(50, 50),  // Center = half of Width/Height
+                    Center = new System.Windows.Point(50, 50),  // Center = half of Width/Height
                     RadiusX = 50,
                     RadiusY = 50
                 };
@@ -194,13 +208,13 @@ namespace TuPesoEspacial
             {
                 FontSize = 28,
                 FontWeight = FontWeights.Bold,
-                FontFamily = new FontFamily(new Uri("pack://application:,,,/"), "./Fonts/#Funky Smile"),
+                FontFamily = new System.Windows.Media.FontFamily(new Uri("pack://application:,,,/"), "./Fonts/#Funky Smile"),
                 TextAlignment = TextAlignment.Center,
                 HorizontalAlignment = HorizontalAlignment.Center,
                 Margin = new Thickness(0, 0, 0, 20)
             };
 
-            titleBlock.Inlines.Add(new Run("Pesos planetarios de ") { Foreground = Brushes.White });
+            titleBlock.Inlines.Add(new Run("Pesos planetarios de ") { Foreground = System.Windows.Media.Brushes.White });
             titleBlock.Inlines.Add(new Run(UserName) { Foreground = new SolidColorBrush(Color.FromRgb(254, 208, 0)) }); // Amarillo
 
             mainPanel.Children.Add(titleBlock);
@@ -238,7 +252,7 @@ namespace TuPesoEspacial
                     VerticalAlignment = VerticalAlignment.Center
                 };
 
-                content.Children.Add(new Image
+                content.Children.Add(new System.Windows.Controls.Image
                 {
                     Source = new BitmapImage(new Uri(planet.ImagePath, UriKind.Absolute)),
                     Width = 60,
@@ -251,7 +265,7 @@ namespace TuPesoEspacial
                     Text = planet.Name,
                     FontWeight = FontWeights.Bold,
                     FontSize = 18,
-                    FontFamily = new FontFamily(new Uri("pack://application:,,,/"), "./Fonts/#Funky Smile"),
+                    FontFamily = new System.Windows.Media.FontFamily(new Uri("pack://application:,,,/"), "./Fonts/#Funky Smile"),
                     Foreground = new SolidColorBrush(Color.FromRgb(254, 208, 0)),
                     TextAlignment = TextAlignment.Center,
                     HorizontalAlignment = HorizontalAlignment.Center
@@ -297,7 +311,7 @@ namespace TuPesoEspacial
                 FrameworkElement visual = CreatePrintVisual();
 
                 // Forzamos layout
-                visual.Measure(new Size(double.PositiveInfinity, double.PositiveInfinity));
+                visual.Measure(new System.Windows.Size(double.PositiveInfinity, double.PositiveInfinity));
                 visual.Arrange(new Rect(0, 0, visual.DesiredSize.Width, visual.DesiredSize.Height));
                 visual.UpdateLayout();
 
@@ -309,7 +323,7 @@ namespace TuPesoEspacial
                 renderBitmap.Render(visual);
 
                 // Creamos un Image control con esa imagen
-                Image image = new Image
+                System.Windows.Controls.Image image = new System.Windows.Controls.Image
                 {
                     Source = renderBitmap,
                     Width = printDialog.PrintableAreaWidth,
@@ -332,6 +346,133 @@ namespace TuPesoEspacial
 
                 printDialog.PrintDocument(doc.DocumentPaginator, "Pesos planetarios");
             }
+        }
+
+        private async void QRCodeButton_Click(object sender, RoutedEventArgs e)
+        {
+            FrameworkElement visual = CreatePrintVisual();
+
+            visual.Measure(new Size(double.PositiveInfinity, double.PositiveInfinity));
+            visual.Arrange(new Rect(0, 0, visual.DesiredSize.Width, visual.DesiredSize.Height));
+            visual.UpdateLayout();
+
+            string path = SaveVisualAsPng(visual, "PesoEspacial.png");
+
+            string driveUrl = await UploadFileToGoogleDriveAsync(path);
+
+            BitmapImage qr = GenerateQRCode(driveUrl);
+
+            ShowQRCodeWindow(qr);
+        }
+
+        private string SaveVisualAsPng(FrameworkElement visual, string fileName)
+        {
+            RenderTargetBitmap renderBitmap = new RenderTargetBitmap(
+                (int)visual.ActualWidth,
+                (int)visual.ActualHeight,
+                96, 96, PixelFormats.Pbgra32);
+            renderBitmap.Render(visual);
+
+            string tempPath = System.IO.Path.Combine(System.IO.Path.GetTempPath(), fileName);
+
+            using (FileStream outStream = new FileStream(tempPath, FileMode.Create))
+            {
+                PngBitmapEncoder encoder = new PngBitmapEncoder();
+                encoder.Frames.Add(BitmapFrame.Create(renderBitmap));
+                encoder.Save(outStream);
+            }
+
+            return tempPath;
+        }
+
+        private async Task<string> UploadFileToGoogleDriveAsync(string filePath)
+        {
+            UserCredential credential;
+
+            using (var stream = new FileStream("client_secret.json", FileMode.Open, FileAccess.Read))
+            {
+                // ✅ Guardar token en AppData para que no se borre fácilmente
+                string credPath = Path.Combine(
+                    Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData),
+                    "TuPesoEspacialTokens"
+                );
+
+                credential = await GoogleWebAuthorizationBroker.AuthorizeAsync(
+                    GoogleClientSecrets.Load(stream).Secrets,
+                    new[] { DriveService.Scope.DriveFile },
+                    "user",
+                    CancellationToken.None,
+                    new FileDataStore(credPath, true)  // Usa FileDataStore para guardar token.json
+                );
+            }
+
+            var service = new DriveService(new BaseClientService.Initializer()
+            {
+                HttpClientInitializer = credential,
+                ApplicationName = "TuPesoEspacial",
+            });
+
+            var fileMetadata = new Google.Apis.Drive.v3.Data.File()
+            {
+                Name = Path.GetFileName(filePath)
+            };
+
+            FilesResource.CreateMediaUpload request;
+            using (var stream = new FileStream(filePath, FileMode.Open))
+            {
+                request = service.Files.Create(fileMetadata, stream, "image/png");
+                request.Fields = "id";
+                await request.UploadAsync();
+            }
+
+            var file = request.ResponseBody;
+
+            // Compartir el archivo públicamente
+            var permission = new Google.Apis.Drive.v3.Data.Permission
+            {
+                Role = "reader",
+                Type = "anyone"
+            };
+            await service.Permissions.Create(permission, file.Id).ExecuteAsync();
+
+            return $"https://drive.google.com/uc?id={file.Id}";
+        }
+
+
+        private BitmapImage GenerateQRCode(string url)
+        {
+            using (QRCodeGenerator qrGenerator = new QRCodeGenerator())
+            using (QRCodeData qrCodeData = qrGenerator.CreateQrCode(url, QRCodeGenerator.ECCLevel.Q))
+            using (QRCode qrCode = new QRCode(qrCodeData))
+            using (Bitmap qrBitmap = qrCode.GetGraphic(20))
+            using (MemoryStream ms = new MemoryStream())
+            {
+                qrBitmap.Save(ms, System.Drawing.Imaging.ImageFormat.Png);
+                ms.Position = 0;
+
+                BitmapImage qrImage = new BitmapImage();
+                qrImage.BeginInit();
+                qrImage.StreamSource = ms;
+                qrImage.CacheOption = BitmapCacheOption.OnLoad;
+                qrImage.EndInit();
+                return qrImage;
+            }
+        }
+
+        private void ShowQRCodeWindow(BitmapImage qrImage)
+        {
+            Window qrWindow = new Window
+            {
+                Title = "QR Code de tu Peso Espacial",
+                Width = 300,
+                Height = 350,
+                Content = new Image
+                {
+                    Source = qrImage,
+                    Stretch = Stretch.Uniform
+                }
+            };
+            qrWindow.ShowDialog();
         }
 
     }
