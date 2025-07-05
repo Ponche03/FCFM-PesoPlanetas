@@ -24,6 +24,7 @@ using FontFamily = System.Windows.Media.FontFamily;
 using Brushes = System.Windows.Media.Brushes;
 using Size = System.Windows.Size;
 using Image = System.Windows.Controls.Image;
+using Point = System.Windows.Point;
 
 
 namespace TuPesoEspacial
@@ -35,8 +36,8 @@ namespace TuPesoEspacial
         public string CalculatedWeight { get; set; }
         public string ImagePath { get; set; }
         public string Description { get; set; }
+        public double ImageSize { get; set; }  
     }
-
     public partial class ResultsPage : Page
     {
         private readonly double _earthWeight;
@@ -57,6 +58,7 @@ namespace TuPesoEspacial
             LoadPlanetData();
         }
 
+
         private void LoadPlanetData()
         {
             _planets = new List<PlanetInfo>
@@ -66,6 +68,7 @@ namespace TuPesoEspacial
                     Name = "Mercurio",
                     GravityFactor = 0.38,
                     ImagePath = "pack://application:,,,/Images/Planetas/MERCURIO.png",
+                    ImageSize = 60,
                     Description = "¡Bienvenido a Mercurio! Es el planeta más cercano al Sol y también el más pequeño de todos. Aunque está muy cerca del Sol, no es el más caliente. ¡Eso sí, un día en Mercurio dura tanto como 176 días en la Tierra! Su gravedad es mucho menor que la de nuestro planeta, así que pesarías mucho menos aquí. Si en la Tierra pesas 30 kilos, en Mercurio pesarías solo unos 11. ¡Te sentirías superligero! No tiene atmósfera que lo proteja, así que el calor y el frío son extremos: durante el día puede alcanzar los 430 °C y en la noche bajar a -180 °C. ¡Menuda montaña rusa de temperaturas!"
                 },
                 new PlanetInfo
@@ -73,13 +76,23 @@ namespace TuPesoEspacial
                     Name = "Venus",
                     GravityFactor = 0.91,
                     ImagePath = "pack://application:,,,/Images/Planetas/VENUS.png",
+                    ImageSize = 75,
                     Description = "Venus es casi del mismo tamaño que la Tierra, pero es muy diferente. Su atmósfera es tan espesa que atrapa el calor como un horno gigante. ¡La temperatura aquí puede superar los 460 °C, más caliente que un horno de pizza! El cielo de Venus siempre está cubierto de nubes de ácido sulfúrico, así que no podrías ver el Sol, ni respirar. Su gravedad es muy parecida a la de la Tierra, así que pesarías casi lo mismo. Pero si fueras allí, ¡tendrías que llevar un traje muy especial para no derretirte!"
+                },
+               new PlanetInfo
+                {
+                    Name = "Tierra",
+                    GravityFactor = 1.0,
+                    ImagePath = "pack://application:,,,/Images/Planetas/TIERRA.png",
+                    ImageSize = 75,
+                    Description = "¡Bienvenido a nuestro hogar, la Tierra! Es el único planeta que conocemos con vida, gracias a su atmósfera perfecta, su agua líquida y una temperatura agradable. Aquí experimentamos estaciones, días soleados y noches estrelladas. Su gravedad es lo que conoces como 'normal': si pesas 30 kg, ¡eso es lo que seguirás pesando aquí! La Tierra tiene un solo satélite natural, la Luna, que influye en las mareas del océano. ¡Es un planeta lleno de maravillas naturales, ciudades increíbles y millones de formas de vida! Y lo más genial... ¡tú vives aquí!"
                 },
                 new PlanetInfo
                 {
                     Name = "Marte",
                     GravityFactor = 0.38,
                     ImagePath = "pack://application:,,,/Images/Planetas/MARTE.png",
+                    ImageSize = 60,
                     Description = "¡Conoce el famoso Planeta Rojo! Marte recibe su color por el óxido de hierro en su superficie, ¡como si estuviera cubierto de polvo oxidado! Tiene la montaña más alta del sistema solar, el Monte Olimpo, que es tres veces más alto que el Monte Everest. Su gravedad es baja, así que podrías saltar mucho más alto que en la Tierra. ¡Un salto largo podría parecer un vuelo! Marte es muy frío y tiene tormentas de polvo que pueden cubrir todo el planeta. Los científicos sueñan con enviar humanos a vivir allá algún día, ¡tal vez tú seas uno de ellos!"
                 },
                 new PlanetInfo
@@ -87,6 +100,7 @@ namespace TuPesoEspacial
                     Name = "Júpiter",
                     GravityFactor = 2.34,
                     ImagePath = "pack://application:,,,/Images/Planetas/JUPITER.png",
+                    ImageSize = 100,
                     Description = "¡Es hora de visitar al gigante del sistema solar! Júpiter es tan grande que cabrían todos los demás planetas dentro de él. Está hecho de gases como hidrógeno y helio, así que no podrías pararte en su superficie. Su gravedad es más del doble que la de la Tierra, lo que significa que pesarías mucho más. Si pesas 30 kg en la Tierra, ¡en Júpiter pesarías unos 70! También tiene la Gran Mancha Roja, una tormenta gigantesca que lleva activa más de 300 años. Además, tiene más de 90 lunas. ¡Es como un sistema solar en miniatura!"
                 },
                 new PlanetInfo
@@ -94,6 +108,7 @@ namespace TuPesoEspacial
                     Name = "Saturno",
                     GravityFactor = 1.06,
                     ImagePath = "pack://application:,,,/Images/Planetas/SATURNO.png",
+                    ImageSize = 95,
                     Description = "¡Bienvenido al planeta con los anillos más bonitos del sistema solar! Saturno es un gigante gaseoso como Júpiter, pero aún más ligero: si pudieras meterlo en una bañera gigante (¡muy gigante!), flotaría. Sus anillos están hechos de hielo y rocas, y son tan anchos que podrías meter varias Tierras dentro de ellos. Su gravedad es casi igual a la de la Tierra, así que pesarías casi lo mismo. Pero cuidado: como no tiene superficie sólida, no podrías pararte en él. ¡Solo podrías flotar entre sus nubes!"
                 },
                 new PlanetInfo
@@ -101,6 +116,7 @@ namespace TuPesoEspacial
                     Name = "Urano",
                     GravityFactor = 0.92,
                     ImagePath = "pack://application:,,,/Images/Planetas/URANO.png",
+                    ImageSize = 80,
                     Description = "Urano es un gigante de hielo con un secreto muy curioso: ¡rota de lado! Es como si estuviera acostado mientras gira alrededor del Sol. Eso hace que tenga estaciones extremadamente largas. Cada polo está expuesto a la luz solar por 42 años seguidos, ¡y luego pasa otros 42 años en oscuridad! Su color azul verdoso viene del gas metano en su atmósfera. Su gravedad es parecida a la de la Tierra, pero un poco menor. Y aunque parezca tranquilo, en realidad es muy frío, con temperaturas de hasta -224 °C. ¡Más frío que cualquier congelador!"
                 },
                 new PlanetInfo
@@ -108,6 +124,7 @@ namespace TuPesoEspacial
                     Name = "Neptuno",
                     GravityFactor = 1.19,
                     ImagePath = "pack://application:,,,/Images/Planetas/NEPTUNO.png",
+                    ImageSize = 80,
                     Description = "¡El planeta más lejano del Sol! Neptuno es otro gigante de hielo, muy ventoso y muy frío. Sus vientos pueden alcanzar los 2,100 kilómetros por hora, más rápidos que cualquier huracán en la Tierra. Tiene un color azul intenso por el metano en su atmósfera. Su gravedad es un poco más fuerte que la de la Tierra, así que pesarías un poco más. Como está tan lejos del Sol, un año allí dura 165 años terrestres. ¡Si nacieras en Neptuno, no celebrarías tu primer cumpleaños hasta que fueras anciano en la Tierra!"
                 },
                 new PlanetInfo
@@ -115,6 +132,7 @@ namespace TuPesoEspacial
                     Name = "Luna",
                     GravityFactor = 0.166,
                     ImagePath = "pack://application:,,,/Images/Planetas/LUNA.png",
+                    ImageSize = 55,
                     Description = "Nuestra Luna es el único satélite natural de la Tierra y el único cuerpo celeste donde los humanos han caminado. Su gravedad es muy baja, ¡solo un 16% de la gravedad terrestre! Por eso los astronautas rebotaban como si flotaran. Si pesas 30 kg en la Tierra, en la Luna pesarías solo unos 5 kg. Además, la Luna no tiene aire ni agua, pero influye mucho en nuestro planeta: su gravedad es la responsable de las mareas en los océanos. ¡Y cada noche nos regala su hermosa luz plateada!"
                 },
                 new PlanetInfo
@@ -122,8 +140,18 @@ namespace TuPesoEspacial
                     Name = "Sol",
                     GravityFactor = 27.9,
                     ImagePath = "pack://application:,,,/Images/Planetas/SOL.png",
+                    ImageSize = 110,
                     Description = "¡Cuidado, está caliente! El Sol no es un planeta, sino una estrella, y es el corazón del sistema solar. Toda la vida en la Tierra depende de su luz y su calor. Su gravedad es tan fuerte que mantiene a todos los planetas girando a su alrededor. Si pudieras pararte en el Sol (lo cual es imposible, ¡te quemarías al instante!), pesarías casi 28 veces más que en la Tierra. Pero gracias a su energía, las plantas crecen, el clima se mueve y podemos vivir. ¡Es nuestra estrella especial!"
                 },
+                new PlanetInfo
+                {
+                    Name = "Ceres",
+                    GravityFactor = 0.028,
+                    ImagePath = "pack://application:,,,/Images/Planetas/CERES.png",
+                    ImageSize = 50,
+                    Description = "¡Bienvenido a Ceres, el asteroide más grande del cinturón principal y también un planeta enano! Aunque es mucho más pequeño que la Luna, tiene una forma casi esférica. Su gravedad es muy débil, así que pesarías casi nada aquí. Si en la Tierra pesas 30 kg, en Ceres pesarías menos de 1 kg. Ceres está hecho de roca y hielo, y los científicos creen que podría tener agua bajo su superficie. ¡Quién sabe, quizás en el futuro podamos extraer agua de Ceres para futuras misiones espaciales!"
+                }
+
             };
 
             foreach (var planet in _planets)
@@ -134,12 +162,10 @@ namespace TuPesoEspacial
 
             PlanetsItemsControl.ItemsSource = _planets;
         }
-
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
-           this.NavigationService.Navigate(new InputPage());
+            this.NavigationService.Navigate(new InputPage());
         }
-
         private void PlanetCard_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
             if (sender is Border clickedBorder && clickedBorder.DataContext is PlanetInfo selectedPlanet)
@@ -150,15 +176,20 @@ namespace TuPesoEspacial
             }
         }
 
+
+            
+
+
+
         private FrameworkElement CreatePrintVisual()
         {
-            double pageWidth = 816;  // 8.5" * 96 dpi
-            double pageHeight = 1056; // 11" * 96 dpi
+            double pageWidth = 1080;
+            double pageHeight = 1920;
 
-            Grid root = new Grid
+            var root = new Grid
             {
                 Width = pageWidth,
-                // Height = pageHeight, ❌ QUÍTALO, causa el corte
+                Height = pageHeight,
                 Background = new ImageBrush
                 {
                     ImageSource = new BitmapImage(new Uri("pack://application:,,,/Images/Fondos/FONDO 2.png")),
@@ -166,72 +197,170 @@ namespace TuPesoEspacial
                 }
             };
 
-            StackPanel mainPanel = new StackPanel
+            var mainLayout = new DockPanel
             {
-                Margin = new Thickness(30),
-                Orientation = Orientation.Vertical
+                Width = pageWidth,
+                Height = pageHeight
             };
 
-            // Imagen del usuario
-            if (_userImage != null)
+            // --- FOOTER ---
+            var footerPanel = new StackPanel
             {
-                System.Windows.Controls.Image userImageControl = new System.Windows.Controls.Image
-                {
-                    Source = _userImage,
-                    Width = 100,
-                    Height = 100,
-                    Stretch = Stretch.UniformToFill,
-                    HorizontalAlignment = HorizontalAlignment.Center,
-                    VerticalAlignment = VerticalAlignment.Center
-                };
+                Orientation = Orientation.Horizontal,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                Margin = new Thickness(0, 20, 0, 20)
+            };
 
-                // Make it perfectly round
-                userImageControl.Clip = new EllipseGeometry
+            string[] logos = { "UANL.png", "EXCELENCIA.png", "FCFM.png" };
+            foreach (var logo in logos)
+            {
+                footerPanel.Children.Add(new System.Windows.Controls.Image
                 {
-                    Center = new System.Windows.Point(50, 50),  // Center = half of Width/Height
-                    RadiusX = 50,
-                    RadiusY = 50
-                };
-
-                mainPanel.Children.Add(new StackPanel
-                {
-                    Children = { userImageControl },
-                    Margin = new Thickness(0, 0, 0, 20),
-                    HorizontalAlignment = HorizontalAlignment.Center
+                    Source = new BitmapImage(new Uri($"pack://application:,,,/Images/Logos/{logo}")),
+                    Width = 160,
+                    Height = 160,
+                    Margin = new Thickness(20),
+                    Stretch = Stretch.Uniform
                 });
-
-
             }
 
-            // Título
-            TextBlock titleBlock = new TextBlock
+            DockPanel.SetDock(footerPanel, Dock.Bottom);
+            mainLayout.Children.Add(footerPanel);
+
+            // --- CONTENIDO ---
+            var contentPanel = new StackPanel
             {
-                FontSize = 28,
-                FontWeight = FontWeights.Bold,
-                FontFamily = new System.Windows.Media.FontFamily(new Uri("pack://application:,,,/"), "./Fonts/#Funky Smile"),
-                TextAlignment = TextAlignment.Center,
+                Orientation = Orientation.Vertical,
+                VerticalAlignment = VerticalAlignment.Top,
                 HorizontalAlignment = HorizontalAlignment.Center,
+                Margin = new Thickness(0, 20, 0, 10)
+            };
+
+            // HEADER
+            var headerGrid = new Grid
+            {
+                Width = pageWidth,
+                HorizontalAlignment = HorizontalAlignment.Stretch,
                 Margin = new Thickness(0, 0, 0, 20)
             };
 
-            titleBlock.Inlines.Add(new Run("Pesos planetarios de ") { Foreground = System.Windows.Media.Brushes.White });
-            titleBlock.Inlines.Add(new Run(UserName) { Foreground = new SolidColorBrush(Color.FromRgb(254, 208, 0)) }); // Amarillo
+            for (int i = 0; i < 5; i++)
+                headerGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
 
-            mainPanel.Children.Add(titleBlock);
-
-            // WrapPanel para las tarjetas
-            WrapPanel wrap = new WrapPanel
+            // Logo izquierdo
+            var logoLeftBorder = new Border
             {
+                Background = new SolidColorBrush(Color.FromRgb(254, 208, 0)),
+                CornerRadius = new CornerRadius(10),
+                Padding = new Thickness(10),
+                Margin = new Thickness(20, 0, 0, 0),
+                Child = new System.Windows.Controls.Image
+                {
+                    Source = new BitmapImage(new Uri("pack://application:,,,/Images/Logos/PLANETARIO.png")),
+                    Width = 80,
+                    Height = 80,
+                    Stretch = Stretch.Uniform
+                }
+            };
+            Grid.SetColumn(logoLeftBorder, 0);
+            headerGrid.Children.Add(logoLeftBorder);
+
+            // Imagen usuario
+            if (_userImage != null)
+            {
+                var userImg = new System.Windows.Controls.Image
+                {
+                    Source = _userImage,
+                    Width = 200,
+                    Height = 200,
+                    Stretch = Stretch.UniformToFill,
+                    HorizontalAlignment = HorizontalAlignment.Center
+                };
+                userImg.Clip = new EllipseGeometry(new Point(100, 100), 100, 100);
+                Grid.SetColumn(userImg, 2);
+                headerGrid.Children.Add(userImg);
+            }
+
+            // Logo derecho
+            var logoRightBorder = new Border
+            {
+                Background = new SolidColorBrush(Color.FromRgb(254, 208, 0)),
+                CornerRadius = new CornerRadius(10),
+                Padding = new Thickness(10),
+                Margin = new Thickness(0, 0, 20, 0),
+                Child = new System.Windows.Controls.Image
+                {
+                    Source = new BitmapImage(new Uri("pack://application:,,,/Images/Logos/MUSEO_AZUL.png")),
+                    Width = 80,
+                    Height = 80,
+                    Stretch = Stretch.Uniform
+                }
+            };
+            Grid.SetColumn(logoRightBorder, 4);
+            headerGrid.Children.Add(logoRightBorder);
+
+            contentPanel.Children.Add(headerGrid);
+
+            // Nombre
+            contentPanel.Children.Add(new TextBlock
+            {
+                Text = UserName,
+                FontSize = 60,
+                FontWeight = FontWeights.Bold,
+                FontFamily = new FontFamily(new Uri("pack://application:,,,/"), "./Fonts/#Funky Smile"),
+                Foreground = new SolidColorBrush(Color.FromRgb(254, 208, 0)),
+                TextAlignment = TextAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                Margin = new Thickness(0, 0, 0, 20)
+            });
+
+            // Subtítulo
+            contentPanel.Children.Add(new TextBlock
+            {
+                Text = "Mi peso en el Sistema Solar",
+                FontSize = 36,
+                FontWeight = FontWeights.Bold,
+                FontFamily = new FontFamily(new Uri("pack://application:,,,/"), "./Fonts/#Funky Smile"),
+                Foreground = Brushes.White,
+                TextAlignment = TextAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                Margin = new Thickness(0, 0, 0, 30)
+            });
+
+            // Grid planetas
+            contentPanel.Children.Add(new Border
+            {
+                Padding = new Thickness(30, 0, 30, 0),
+                Child = GeneratePlanetGrid(pageWidth)
+            });
+
+            DockPanel.SetDock(contentPanel, Dock.Top);
+            mainLayout.Children.Add(contentPanel);
+
+            root.Children.Add(mainLayout);
+            return root;
+        }
+        private UniformGrid GeneratePlanetGrid(double pageWidth)
+        {
+            double cardWidth = 200;
+            double horizontalMargin = 12;
+            double totalCardWidth = cardWidth + (horizontalMargin * 2); 
+            double gridWidth = totalCardWidth * 4; 
+
+            var grid = new UniformGrid
+            {
+                Columns = 4,
+                Width = gridWidth,
                 HorizontalAlignment = HorizontalAlignment.Center
             };
 
             foreach (var planet in _planets)
             {
-                Border card = new Border
+                var card = new Border
                 {
-                    Width = 200,
-                    Height = 240,
-                    Margin = new Thickness(10),
+                    Width = cardWidth,
+                    Height = 230,
+                    Margin = new Thickness(horizontalMargin),
                     CornerRadius = new CornerRadius(20),
                     Background = new SolidColorBrush(Color.FromRgb(44, 62, 80)),
                     BorderBrush = new SolidColorBrush(Color.FromRgb(254, 208, 0)),
@@ -245,61 +374,62 @@ namespace TuPesoEspacial
                     }
                 };
 
-                StackPanel content = new StackPanel
+                var stack = new StackPanel
                 {
                     Orientation = Orientation.Vertical,
                     HorizontalAlignment = HorizontalAlignment.Center,
                     VerticalAlignment = VerticalAlignment.Center
                 };
 
-                content.Children.Add(new System.Windows.Controls.Image
+                stack.Children.Add(new System.Windows.Controls.Image
                 {
-                    Source = new BitmapImage(new Uri(planet.ImagePath, UriKind.Absolute)),
-                    Width = 60,
-                    Height = 60,
-                    Margin = new Thickness(0, 0, 0, 10)
+                    Source = string.IsNullOrEmpty(planet.ImagePath)
+                    ? new BitmapImage(new Uri("pack://application:,,,/Images/placeholder.png"))
+                    : new BitmapImage(new Uri(planet.ImagePath, UriKind.Absolute)),
+                    Width = planet.ImageSize,
+                    Height = planet.ImageSize,
+                    Margin = new Thickness(0, 5, 0, 10),
+                    Stretch = Stretch.Uniform
                 });
 
-                content.Children.Add(new TextBlock
+
+                stack.Children.Add(new TextBlock
                 {
                     Text = planet.Name,
                     FontWeight = FontWeights.Bold,
-                    FontSize = 18,
-                    FontFamily = new System.Windows.Media.FontFamily(new Uri("pack://application:,,,/"), "./Fonts/#Funky Smile"),
+                    FontSize = 16,
+                    FontFamily = new FontFamily(new Uri("pack://application:,,,/"), "./Fonts/#Funky Smile"),
                     Foreground = new SolidColorBrush(Color.FromRgb(254, 208, 0)),
                     TextAlignment = TextAlignment.Center,
                     HorizontalAlignment = HorizontalAlignment.Center
                 });
 
-                content.Children.Add(new TextBlock
+                stack.Children.Add(new TextBlock
                 {
                     Text = "Tu peso sería",
                     FontSize = 12,
                     FontFamily = new FontFamily(new Uri("pack://application:,,,/"), "./Fonts/#Funky Smile"),
                     Foreground = Brushes.White,
                     HorizontalAlignment = HorizontalAlignment.Center,
-                    Margin = new Thickness(0, 10, 0, 2)
+                    Margin = new Thickness(0, 8, 0, 2)
                 });
 
-                content.Children.Add(new TextBlock
+                stack.Children.Add(new TextBlock
                 {
                     Text = planet.CalculatedWeight,
-                    FontSize = 22,
+                    FontSize = 20,
                     FontWeight = FontWeights.Bold,
                     FontFamily = new FontFamily("Franklin Gothic Heavy"),
                     Foreground = Brushes.White,
                     HorizontalAlignment = HorizontalAlignment.Center
                 });
 
-                card.Child = content;
-                wrap.Children.Add(card);
+                card.Child = stack;
+                grid.Children.Add(card);
             }
 
-            mainPanel.Children.Add(wrap);
-            root.Children.Add(mainPanel);
-            return root;
+            return grid;
         }
-
         private void PrintButton_Click(object sender, RoutedEventArgs e)
         {
             PrintDialog printDialog = new PrintDialog();
@@ -348,6 +478,10 @@ namespace TuPesoEspacial
             }
         }
 
+
+
+
+
         private async void QRCodeButton_Click(object sender, RoutedEventArgs e)
         {
             FrameworkElement visual = CreatePrintVisual();
@@ -364,7 +498,6 @@ namespace TuPesoEspacial
 
             ShowQRCodeWindow(qr);
         }
-
         private string SaveVisualAsPng(FrameworkElement visual, string fileName)
         {
             RenderTargetBitmap renderBitmap = new RenderTargetBitmap(
@@ -384,7 +517,6 @@ namespace TuPesoEspacial
 
             return tempPath;
         }
-
         private async Task<string> UploadFileToGoogleDriveAsync(string filePath)
         {
             UserCredential credential;
@@ -437,8 +569,6 @@ namespace TuPesoEspacial
 
             return $"https://drive.google.com/uc?id={file.Id}";
         }
-
-
         private BitmapImage GenerateQRCode(string url)
         {
             using (QRCodeGenerator qrGenerator = new QRCodeGenerator())
@@ -458,7 +588,6 @@ namespace TuPesoEspacial
                 return qrImage;
             }
         }
-
         private void ShowQRCodeWindow(BitmapImage qrImage)
         {
             Window qrWindow = new Window
@@ -474,6 +603,7 @@ namespace TuPesoEspacial
             };
             qrWindow.ShowDialog();
         }
+
 
     }
 

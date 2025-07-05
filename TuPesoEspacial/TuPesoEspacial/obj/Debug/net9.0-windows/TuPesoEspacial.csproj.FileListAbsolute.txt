@@ -180,3 +180,11 @@ C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\
 C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\System.Management.dll
 C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\runtimes\win\lib\net7.0\System.Management.dll
 C:\Users\rober\OneDrive\Desktop\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\QRCoder.dll
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\Aplicación Cálculo de Planetas\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\Google.Apis.dll
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\Aplicación Cálculo de Planetas\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\Google.Apis.Auth.dll
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\Aplicación Cálculo de Planetas\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\Google.Apis.Core.dll
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\Aplicación Cálculo de Planetas\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\Google.Apis.Drive.v3.dll
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\Aplicación Cálculo de Planetas\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\Newtonsoft.Json.dll
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\Aplicación Cálculo de Planetas\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\QRCoder.dll
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\Aplicación Cálculo de Planetas\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\System.Management.dll
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\Aplicación Cálculo de Planetas\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\runtimes\win\lib\net7.0\System.Management.dll

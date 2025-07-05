@@ -26,6 +26,11 @@
     <None Remove="Images\Fondos\FONDO_SIN_ESTRELLAS.png" />
     <None Remove="Images\Iconos\QR_Code.png" />
     <None Remove="Images\Iconos\QR_Code_Inverted.png" />
+    <None Remove="Images\Logos\EXCELENCIA.png" />
+    <None Remove="Images\Logos\FCFM.png" />
+    <None Remove="Images\Logos\MUSEO.png" />
+    <None Remove="Images\Logos\PLANETARIO.png" />
+    <None Remove="Images\Logos\UANL.png" />
     <None Remove="Images\Planetas\JUPITER.png" />
     <None Remove="Images\Planetas\LUNA.png" />
     <None Remove="Images\Planetas\MARTE.png" />
@@ -69,6 +74,13 @@
     <Resource Include="Images\Fondos\FONDO_SIN_ESTRELLAS.png" />
     <Resource Include="Images\Iconos\QR_Code.png" />
     <Resource Include="Images\Iconos\QR_Code_Inverted.png" />
+    <Resource Include="Images\Logos\EXCELENCIA.png" />
+    <Resource Include="Images\Logos\FCFM.png" />
+    <Resource Include="Images\Logos\MUSEO.png" />
+    <Resource Include="Images\Logos\MUSEO_AZUL.png" />
+    <Resource Include="Images\Logos\PLANETARIO.png" />
+    <Resource Include="Images\Logos\UANL.png" />
+    <Resource Include="Images\Planetas\CERES.png" />
     <Resource Include="Images\Planetas\JUPITER.png" />
     <Resource Include="Images\Planetas\LUNA.png" />
     <Resource Include="Images\Planetas\MARTE.png" />
