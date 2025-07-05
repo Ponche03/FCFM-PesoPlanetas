@@ -31,6 +31,7 @@
     <None Remove="Images\Logos\MUSEO.png" />
     <None Remove="Images\Logos\PLANETARIO.png" />
     <None Remove="Images\Logos\UANL.png" />
+    <None Remove="Images\Planetas\CERES.png" />
     <None Remove="Images\Planetas\JUPITER.png" />
     <None Remove="Images\Planetas\LUNA.png" />
     <None Remove="Images\Planetas\MARTE.png" />

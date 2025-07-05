@@ -58,7 +58,6 @@ namespace TuPesoEspacial
             LoadPlanetData();
         }
 
-
         private void LoadPlanetData()
         {
             _planets = new List<PlanetInfo>
@@ -79,7 +78,7 @@ namespace TuPesoEspacial
                     ImageSize = 75,
                     Description = "Venus es casi del mismo tamaño que la Tierra, pero es muy diferente. Su atmósfera es tan espesa que atrapa el calor como un horno gigante. ¡La temperatura aquí puede superar los 460 °C, más caliente que un horno de pizza! El cielo de Venus siempre está cubierto de nubes de ácido sulfúrico, así que no podrías ver el Sol, ni respirar. Su gravedad es muy parecida a la de la Tierra, así que pesarías casi lo mismo. Pero si fueras allí, ¡tendrías que llevar un traje muy especial para no derretirte!"
                 },
-               new PlanetInfo
+                new PlanetInfo
                 {
                     Name = "Tierra",
                     GravityFactor = 1.0,
@@ -177,7 +176,7 @@ namespace TuPesoEspacial
         }
 
 
-            
+
 
 
 
@@ -217,8 +216,8 @@ namespace TuPesoEspacial
                 footerPanel.Children.Add(new System.Windows.Controls.Image
                 {
                     Source = new BitmapImage(new Uri($"pack://application:,,,/Images/Logos/{logo}")),
-                    Width = 160,
-                    Height = 160,
+                    Width = 180,
+                    Height = 180,
                     Margin = new Thickness(20),
                     Stretch = Stretch.Uniform
                 });
@@ -228,15 +227,19 @@ namespace TuPesoEspacial
             mainLayout.Children.Add(footerPanel);
 
             // --- CONTENIDO ---
-            var contentPanel = new StackPanel
+            var contentGrid = new Grid
             {
-                Orientation = Orientation.Vertical,
-                VerticalAlignment = VerticalAlignment.Top,
-                HorizontalAlignment = HorizontalAlignment.Center,
-                Margin = new Thickness(0, 20, 0, 10)
+                Width = pageWidth,
+                Height = pageHeight,
+                Margin = new Thickness(0, 20, 0, 20)
             };
 
-            // HEADER
+            contentGrid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto }); // Header
+            contentGrid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto }); // Name
+            contentGrid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto }); // Subtítulo
+            contentGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) }); // Grid planetas
+
+            // --- HEADER ---
             var headerGrid = new Grid
             {
                 Width = pageWidth,
@@ -257,8 +260,8 @@ namespace TuPesoEspacial
                 Child = new System.Windows.Controls.Image
                 {
                     Source = new BitmapImage(new Uri("pack://application:,,,/Images/Logos/PLANETARIO.png")),
-                    Width = 80,
-                    Height = 80,
+                    Width = 170,
+                    Height = 170,
                     Stretch = Stretch.Uniform
                 }
             };
@@ -291,55 +294,69 @@ namespace TuPesoEspacial
                 Child = new System.Windows.Controls.Image
                 {
                     Source = new BitmapImage(new Uri("pack://application:,,,/Images/Logos/MUSEO_AZUL.png")),
-                    Width = 80,
-                    Height = 80,
+                    Width = 170,
+                    Height = 170,
                     Stretch = Stretch.Uniform
                 }
             };
             Grid.SetColumn(logoRightBorder, 4);
             headerGrid.Children.Add(logoRightBorder);
 
-            contentPanel.Children.Add(headerGrid);
+            Grid.SetRow(headerGrid, 0);
+            contentGrid.Children.Add(headerGrid);
 
             // Nombre
-            contentPanel.Children.Add(new TextBlock
+            var nameText = new TextBlock
             {
                 Text = UserName,
-                FontSize = 60,
+                FontSize = 70,
                 FontWeight = FontWeights.Bold,
                 FontFamily = new FontFamily(new Uri("pack://application:,,,/"), "./Fonts/#Funky Smile"),
                 Foreground = new SolidColorBrush(Color.FromRgb(254, 208, 0)),
                 TextAlignment = TextAlignment.Center,
                 HorizontalAlignment = HorizontalAlignment.Center,
                 Margin = new Thickness(0, 0, 0, 20)
-            });
+            };
+            Grid.SetRow(nameText, 1);
+            contentGrid.Children.Add(nameText);
 
             // Subtítulo
-            contentPanel.Children.Add(new TextBlock
+            var subtitleText = new TextBlock
             {
                 Text = "Mi peso en el Sistema Solar",
-                FontSize = 36,
+                FontSize = 40,
                 FontWeight = FontWeights.Bold,
                 FontFamily = new FontFamily(new Uri("pack://application:,,,/"), "./Fonts/#Funky Smile"),
                 Foreground = Brushes.White,
                 TextAlignment = TextAlignment.Center,
                 HorizontalAlignment = HorizontalAlignment.Center,
-                Margin = new Thickness(0, 0, 0, 30)
-            });
+                Margin = new Thickness(0, 0, 0, 20)
+            };
+            Grid.SetRow(subtitleText, 2);
+            contentGrid.Children.Add(subtitleText);
 
-            // Grid planetas
-            contentPanel.Children.Add(new Border
+            // Grid planetas centrado
+            var planetGridContainer = new Grid
+            {
+                VerticalAlignment = VerticalAlignment.Center,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                RenderTransform = new TranslateTransform(0, -150)
+            };
+            planetGridContainer.Children.Add(new Border
             {
                 Padding = new Thickness(30, 0, 30, 0),
                 Child = GeneratePlanetGrid(pageWidth)
             });
+            Grid.SetRow(planetGridContainer, 3);
+            contentGrid.Children.Add(planetGridContainer);
 
-            DockPanel.SetDock(contentPanel, Dock.Top);
-            mainLayout.Children.Add(contentPanel);
+            DockPanel.SetDock(contentGrid, Dock.Top);
+            mainLayout.Children.Add(contentGrid);
 
             root.Children.Add(mainLayout);
             return root;
         }
+
         private UniformGrid GeneratePlanetGrid(double pageWidth)
         {
             double cardWidth = 200;
@@ -359,7 +376,7 @@ namespace TuPesoEspacial
                 var card = new Border
                 {
                     Width = cardWidth,
-                    Height = 230,
+                    Height = 280,
                     Margin = new Thickness(horizontalMargin),
                     CornerRadius = new CornerRadius(20),
                     Background = new SolidColorBrush(Color.FromRgb(44, 62, 80)),
@@ -397,7 +414,7 @@ namespace TuPesoEspacial
                 {
                     Text = planet.Name,
                     FontWeight = FontWeights.Bold,
-                    FontSize = 16,
+                    FontSize = 30,
                     FontFamily = new FontFamily(new Uri("pack://application:,,,/"), "./Fonts/#Funky Smile"),
                     Foreground = new SolidColorBrush(Color.FromRgb(254, 208, 0)),
                     TextAlignment = TextAlignment.Center,
@@ -407,7 +424,7 @@ namespace TuPesoEspacial
                 stack.Children.Add(new TextBlock
                 {
                     Text = "Tu peso sería",
-                    FontSize = 12,
+                    FontSize = 16,
                     FontFamily = new FontFamily(new Uri("pack://application:,,,/"), "./Fonts/#Funky Smile"),
                     Foreground = Brushes.White,
                     HorizontalAlignment = HorizontalAlignment.Center,
@@ -417,7 +434,7 @@ namespace TuPesoEspacial
                 stack.Children.Add(new TextBlock
                 {
                     Text = planet.CalculatedWeight,
-                    FontSize = 20,
+                    FontSize = 30,
                     FontWeight = FontWeights.Bold,
                     FontFamily = new FontFamily("Franklin Gothic Heavy"),
                     Foreground = Brushes.White,

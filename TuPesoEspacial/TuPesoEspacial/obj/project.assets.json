@@ -538,23 +538,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\roberto.ponce\\.nuget\\packages\\": {},
+    "C:\\Users\\rober\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicación Cálculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\TuPesoEspacial.csproj",
+      "projectUniqueName": "C:\\Users\\rober\\OneDrive\\Desktop\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\TuPesoEspacial.csproj",
       "projectName": "TuPesoEspacial",
-      "projectPath": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicación Cálculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\TuPesoEspacial.csproj",
-      "packagesPath": "C:\\Users\\roberto.ponce\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\roberto.ponce\\OneDrive - Epicor\\Desktop\\Aplicación Cálculo de Planetas\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\obj\\",
+      "projectPath": "C:\\Users\\rober\\OneDrive\\Desktop\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\TuPesoEspacial.csproj",
+      "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rober\\OneDrive\\Desktop\\FCFM-PesoPlanetas\\TuPesoEspacial\\TuPesoEspacial\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\roberto.ponce\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -581,7 +581,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0-windows7.0": {
@@ -635,7 +635,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
