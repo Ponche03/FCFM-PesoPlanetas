@@ -356,7 +356,7 @@ namespace TuPesoEspacial
                 doc.Pages.Add(pageContent);
 
                 // Imprimimos el documento
-                printDialog.PrintDocument(doc.DocumentPaginator, "Pesos planetarios");
+                printDialog.PrintDocument(doc.DocumentPaginator, "Pesos Planetarios");
             }
         }
 

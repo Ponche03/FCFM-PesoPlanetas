@@ -85,7 +85,7 @@ namespace TuPesoEspacial {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TuPesoEspacial;component/planetdetailpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TuPesoEspacial;V1.0.0.0;component/planetdetailpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\PlanetDetailPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
