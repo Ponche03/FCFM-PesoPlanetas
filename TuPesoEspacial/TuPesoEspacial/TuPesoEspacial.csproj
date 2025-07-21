@@ -31,6 +31,7 @@
     <None Remove="Images\Logos\MUSEO.png" />
     <None Remove="Images\Logos\PLANETARIO.png" />
     <None Remove="Images\Logos\UANL.png" />
+    <None Remove="Images\PesosPlanetariosPlantilla.png" />
     <None Remove="Images\Planetas\CERES.png" />
     <None Remove="Images\Planetas\JUPITER.png" />
     <None Remove="Images\Planetas\LUNA.png" />
@@ -58,6 +59,7 @@
     <PackageReference Include="Google.Apis.Drive.v3" Version="1.69.0.3783" />
     <PackageReference Include="QRCoder" Version="1.6.0" />
     <PackageReference Include="System.Drawing.Common" Version="9.0.6" />
+    <PackageReference Include="System.Speech" Version="9.0.7" />
   </ItemGroup>
 
   <ItemGroup>
@@ -81,6 +83,7 @@
     <Resource Include="Images\Logos\MUSEO_AZUL.png" />
     <Resource Include="Images\Logos\PLANETARIO.png" />
     <Resource Include="Images\Logos\UANL.png" />
+    <Resource Include="Images\PesosPlanetariosPlantilla.png" />
     <Resource Include="Images\Planetas\CERES.png" />
     <Resource Include="Images\Planetas\JUPITER.png" />
     <Resource Include="Images\Planetas\LUNA.png" />

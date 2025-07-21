@@ -19,6 +19,9 @@
     <Compile Update="PlanetDetailPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="QRCodePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ResultsPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

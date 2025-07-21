@@ -47,95 +47,120 @@
     </Page.Resources>
 
     <Canvas>
-        
-        
-        <Canvas.Background>
-            <ImageBrush ImageSource="/Images/Fondos/FONDO 4.png" Stretch="UniformToFill"/>
-        </Canvas.Background>
+    <Canvas.Background>
+        <ImageBrush ImageSource="/Images/Fondos/FONDO 4.png" Stretch="UniformToFill"/>
+    </Canvas.Background>
 
+    <!-- Left Column with Info Cards -->
+    <StackPanel Canvas.Left="100" Canvas.Top="150">
+        <!-- User Info Card -->
+        <Border Width="450" Height="250" CornerRadius="20" Background="#2C3E50" Margin="0,0,0,30">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
 
-        <!-- Left Column with Info Cards -->
-        <StackPanel Canvas.Left="100" Canvas.Top="150">
-            <!-- User Info Card -->
-            <Border Width="450" Height="250" CornerRadius="20" Background="#2C3E50" Margin="0,0,0,30">
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
+                <Border x:Name="UserPhotoBorder" Width="180" Height="180" CornerRadius="15" Margin="30,0,0,0"/>
 
-                    <Border x:Name="UserPhotoBorder" Width="180" Height="180" CornerRadius="15" Margin="30,0,0,0">
+                <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="20,0,0,0">
+                    <TextBlock Text="{Binding UserName}" FontFamily="Fonts/#Funky Smile" FontSize="40" Foreground="White" Margin="0,0,0,20"/>
+                    <TextBlock Text="Tu Peso:" FontFamily="Fonts/#Funky Smile" FontSize="24" Foreground="#FED000"/>
+                    <TextBlock Text="{Binding CalculatedWeight}" FontFamily="Fonts/#Funky Smile" FontSize="36" Foreground="White"/>
+                </StackPanel>
+            </Grid>
+        </Border>
 
-                    </Border>
+            <!-- Planet Description Card con botón de speaker -->
+            <Border Width="450" Height="400" CornerRadius="20" Background="#2C3E50">
+                <Grid Margin="30">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
 
-                    <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="20,0,0,0">
-                        <TextBlock Text="{Binding UserName}" FontFamily="Fonts/#Funky Smile" FontSize="40" Foreground="White" Margin="0,0,0,20"/>
-                        <TextBlock Text="Tu Peso:" FontFamily="Fonts/#Funky Smile" FontSize="24" Foreground="#FED000"/>
-                        <TextBlock Text="{Binding CalculatedWeight}" FontFamily="Fonts/#Funky Smile" FontSize="36" Foreground="White"/>
-                    </StackPanel>
+                    <!-- Nombre del planeta -->
+                    <TextBlock Text="{Binding SelectedPlanet.Name}" 
+                   FontFamily="Fonts/#Funky Smile" 
+                   FontSize="48" 
+                   Foreground="#FED000" 
+                   Margin="0,0,50,20" 
+                   Grid.Row="0"/>
+
+                <!-- Botón speaker en esquina superior derecha -->
+                <Button Grid.Row="0"
+                HorizontalAlignment="Right" 
+                VerticalAlignment="Top"
+                Width="40" Height="40"
+                Background="Transparent"
+                BorderThickness="0"
+                Cursor="Hand"
+                Click="SpeakerIcon_Click"
+                ToolTip="Escuchar nombre del planeta">
+                        <TextBlock Text="&#xE994;" 
+                       FontFamily="Segoe MDL2 Assets" 
+                       FontSize="36" 
+                       Foreground="#FED000" 
+                       VerticalAlignment="Center" 
+                       HorizontalAlignment="Center"/>
+                    </Button>
+
+                    <!-- Descripción -->
+                    <TextBlock Text="{Binding SelectedPlanet.Description}" 
+                   TextAlignment="Justify" 
+                   TextWrapping="Wrap" 
+                   FontFamily="Franklin Gothic Demi" 
+                   FontSize="18" 
+                   Foreground="White" 
+                   Grid.Row="1"/>
                 </Grid>
             </Border>
 
-            <!-- Planet Description Card -->
-            <Border Width="450" Height="400" CornerRadius="20" Background="#2C3E50">
-                <StackPanel Margin="30">
-                    <TextBlock Text="{Binding SelectedPlanet.Name}" FontFamily="Fonts/#Funky Smile" FontSize="48" Foreground="#FED000" Margin="0,0,0,20"/>
-                    <TextBlock Text="{Binding SelectedPlanet.Description}" TextAlignment="Justify" TextWrapping="Wrap" FontFamily="Franklin Gothic Demi" FontSize="18" Foreground="White"/>
-                </StackPanel>
-            </Border>
+
         </StackPanel>
 
-        <!-- Right Column with Planet Image and Navigation -->
-        <StackPanel Canvas.Left="1100" Canvas.Top="180" HorizontalAlignment="Center">
-            <!-- Planet Image -->
+    <!-- Right Column with Planet Image and Navigation -->
+    <StackPanel Canvas.Left="1100" Canvas.Top="180" HorizontalAlignment="Center">
+        <!-- Planet Image -->
             <Image Source="{Binding SelectedPlanet.ImagePath}" Width="500" Height="500"/>
-
-            <!-- Planet Name Label -->
-            <TextBlock Text="{Binding SelectedPlanet.Name}" 
-               TextAlignment="Center" 
-               FontFamily="Fonts/#Funky Smile" 
-               FontSize="72" 
-               Foreground="White" 
-               Margin="0,20,0,0"/>
         </StackPanel>
 
+    <!-- Navigation Buttons with Icons -->
+    <Button x:Name="PreviousButton" Click="PreviousButton_Click" Content="&#xE76B;" Canvas.Left="850" Canvas.Top="400" Style="{StaticResource NavButtonStyle}"/>
+    <Button x:Name="NextButton" Click="NextButton_Click" Content="&#xE76C;" Canvas.Right="100" Canvas.Top="400" Style="{StaticResource NavButtonStyle}"/>
 
-        <!-- Navigation Buttons - UPDATED CONTENT TO USE ICONS -->
-        <Button x:Name="PreviousButton" Click="PreviousButton_Click" Content="&#xE76B;" Canvas.Left="850" Canvas.Top="400" Style="{StaticResource NavButtonStyle}"/>
-        <Button x:Name="NextButton" Click="NextButton_Click" Content="&#xE76C;" Canvas.Right="100" Canvas.Top="400" Style="{StaticResource NavButtonStyle}"/>
-
-        <!-- Back Button -->
-        <Button x:Name="BackButton" 
-                Content="REGRESAR" 
-                Click="BackButton_Click" 
-                FontSize="48" 
-                FontFamily="Fonts/#Funky Smile"
-                Cursor="Hand"
-                Width="524"
-                Height="100"
-                Canvas.Top="900" 
-                Canvas.Left="698">
-            <Button.Style>
-                <Style TargetType="Button">
-                    <Setter Property="Background" Value="#FED000"/>
-                    <Setter Property="Foreground" Value="#2C3E50"/>
-                    <Setter Property="Template">
-                        <Setter.Value>
-                            <ControlTemplate TargetType="Button">
-                                <Border Background="{TemplateBinding Background}" CornerRadius="20">
-                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                </Border>
-                            </ControlTemplate>
-                        </Setter.Value>
-                    </Setter>
-                    <Style.Triggers>
-                        <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Background" Value="#F39C12"/>
-                        </Trigger>
-                    </Style.Triggers>
-                </Style>
-            </Button.Style>
-        </Button>
-    </Canvas>
+    <!-- Back Button -->
+    <Button x:Name="BackButton" 
+            Content="REGRESAR" 
+            Click="BackButton_Click" 
+            FontSize="48" 
+            FontFamily="Fonts/#Funky Smile"
+            Cursor="Hand"
+            Width="524"
+            Height="100"
+            Canvas.Top="900" 
+            Canvas.Left="698">
+        <Button.Style>
+            <Style TargetType="Button">
+                <Setter Property="Background" Value="#FED000"/>
+                <Setter Property="Foreground" Value="#2C3E50"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border Background="{TemplateBinding Background}" CornerRadius="20">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter Property="Background" Value="#F39C12"/>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+        </Button.Style>
+    </Button>
+</Canvas>
 
 </Page>

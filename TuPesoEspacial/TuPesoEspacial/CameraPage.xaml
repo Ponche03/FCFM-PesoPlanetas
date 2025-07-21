@@ -34,8 +34,19 @@
                 <Run Text="foto!" Foreground="#FED000"/>
             </TextBlock>
 
-            <Border BorderBrush="#FED000" BorderThickness="4" Width="644" Height="484" CornerRadius="20" HorizontalAlignment="Center">
-                <Image x:Name="CameraFeedImage" Stretch="UniformToFill"/>
+            <Border BorderBrush="#FED000"
+        BorderThickness="4"
+        Width="644"
+        Height="484"
+        CornerRadius="20"
+        HorizontalAlignment="Center"
+        ClipToBounds="True">
+                <!-- Esto es clave para que las esquinas redondeadas también se apliquen al contenido -->
+
+                <Image x:Name="CameraFeedImage"
+           Stretch="UniformToFill"
+           HorizontalAlignment="Center"
+           VerticalAlignment="Center"/>
             </Border>
 
             <Button x:Name="TakePhotoButton" 

@@ -14,7 +14,8 @@
           "Google.Apis.Auth": "1.70.0",
           "Google.Apis.Drive.v3": "1.69.0.3783",
           "QRCoder": "1.6.0",
-          "System.Drawing.Common": "9.0.6"
+          "System.Drawing.Common": "9.0.6",
+          "System.Speech": "9.0.7"
         },
         "runtime": {
           "TuPesoEspacial.dll": {}
@@ -166,6 +167,22 @@
             "fileVersion": "7.0.723.27404"
           }
         }
+      },
+      "System.Speech/9.0.7": {
+        "runtime": {
+          "lib/net9.0/System.Speech.dll": {
+            "assemblyVersion": "9.0.0.7",
+            "fileVersion": "9.0.725.31616"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net9.0/System.Speech.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "9.0.0.7",
+            "fileVersion": "9.0.725.31616"
+          }
+        }
       }
     }
   },
@@ -265,6 +282,13 @@
       "sha512": "sha512-/qEUN91mP/MUQmJnM5y5BdT7ZoPuVrtxnFlbJ8a3kBJGhe2wCzBfnPFtK2wTtEEcf3DMGR9J00GZZfg6HRI6yA==",
       "path": "system.management/7.0.2",
       "hashPath": "system.management.7.0.2.nupkg.sha512"
+    },
+    "System.Speech/9.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EYnOurHxVxIx4OpHj0roSXIltuN41EZI77CVHJ/rxEOYPHV/9EsD+zVtTkOLWPcLJZnZqxVw2MGhai+op3oQGQ==",
+      "path": "system.speech/9.0.7",
+      "hashPath": "system.speech.9.0.7.nupkg.sha512"
     }
   }
 }

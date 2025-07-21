@@ -53,16 +53,18 @@
                 <!-- Name input -->
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                     <TextBox x:Name="NameTextBox"
-                             Width="600"
-                             FontSize="48"
-                             FontFamily="Fonts/#Funky Smile"
-                             Foreground="White"
-                             Background="Transparent"
-                             BorderThickness="0,0,0,4"
-                             CaretBrush="White"
-                             TextAlignment="Center"
-                             BorderBrush="#FED000"
-                             KeyDown="NameTextBox_KeyDown"/>
+         Width="600"
+         FontSize="48"
+         FontFamily="Fonts/#Funky Smile"
+         Foreground="White"
+         Background="Transparent"
+         BorderThickness="0,0,0,4"
+         CaretBrush="White"
+         TextAlignment="Center"
+         BorderBrush="#FED000"
+         KeyDown="NameTextBox_KeyDown"
+         CharacterCasing="Upper"/>
+
                 </StackPanel>
 
                 <!-- Button -->

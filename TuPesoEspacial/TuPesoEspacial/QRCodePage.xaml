@@ -1,0 +1,52 @@
+﻿<Page x:Class="TuPesoEspacial.QRCodePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Código QR">
+
+    <Canvas>
+        <!-- Fondo -->
+        <Canvas.Background>
+            <ImageBrush ImageSource="/Images/Fondos/FONDO 2.png" Stretch="UniformToFill"/>
+        </Canvas.Background>
+
+        <!-- Imagen del código QR -->
+        <Image x:Name="QRCodeImage"
+               Width="400"
+               Height="400"
+               Canvas.Left="760"
+               Canvas.Top="250"
+               Stretch="Uniform" />
+
+        <!-- Botón para volver -->
+        <Button Content="VOLVER"
+                Click="BackButton_Click"
+                FontSize="48"
+                FontFamily="Fonts/#Funky Smile"
+                Width="300"
+                Height="80"
+                Canvas.Left="810"
+                Canvas.Top="700"
+                Cursor="Hand">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="#FED000"/>
+                    <Setter Property="Foreground" Value="#2C3E50"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="{TemplateBinding Background}" CornerRadius="20">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#F39C12"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+    </Canvas>
+</Page>

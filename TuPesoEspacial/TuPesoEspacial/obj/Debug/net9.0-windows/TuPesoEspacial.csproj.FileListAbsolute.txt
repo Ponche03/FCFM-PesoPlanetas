@@ -188,3 +188,7 @@ C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\Aplicación Cálculo de Planeta
 C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\Aplicación Cálculo de Planetas\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\QRCoder.dll
 C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\Aplicación Cálculo de Planetas\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\System.Management.dll
 C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\Aplicación Cálculo de Planetas\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\Aplicación Cálculo de Planetas\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\QRCodePage.baml
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\Aplicación Cálculo de Planetas\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\obj\Debug\net9.0-windows\QRCodePage.g.cs
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\Aplicación Cálculo de Planetas\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\System.Speech.dll
+C:\Users\roberto.ponce\OneDrive - Epicor\Desktop\Aplicación Cálculo de Planetas\FCFM-PesoPlanetas\TuPesoEspacial\TuPesoEspacial\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\System.Speech.dll
