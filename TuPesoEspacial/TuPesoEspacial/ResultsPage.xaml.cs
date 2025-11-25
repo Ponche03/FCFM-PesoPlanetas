@@ -189,7 +189,7 @@ namespace TuPesoEspacial
 
         private FrameworkElement CreateVisualWithWeightsOnTemplate(BitmapImage userImage)
         {
-            var backgroundImage = new BitmapImage(new Uri("pack://application:,,,/Images/PesosPlanetariosPlantilla.png"));
+            var backgroundImage = new BitmapImage(new Uri("pack://application:,,,/Images/PesosPlanetariosPlantilla_transparencia.png"));
             double width = backgroundImage.PixelWidth;
             double height = backgroundImage.PixelHeight;
 
@@ -230,7 +230,7 @@ namespace TuPesoEspacial
                     FlowDirection.LeftToRight,
                     customFont,
                     300, // tamaño de fuente
-                    Brushes.White,
+                    Brushes.Black,
                     1.0);
 
                 // Centramos el texto bajo la imagen del usuario
@@ -247,7 +247,7 @@ namespace TuPesoEspacial
                     FlowDirection.LeftToRight,
                     customFont, // usa la misma fuente que el nombre
                     200,        // tamaño de fuente más pequeño
-                    Brushes.White,
+                    Brushes.Black,
                     1.0);
 
                 // Centrar leyenda igual que el nombre

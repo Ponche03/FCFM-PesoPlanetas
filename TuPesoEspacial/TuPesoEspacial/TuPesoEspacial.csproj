@@ -32,6 +32,7 @@
     <None Remove="Images\Logos\PLANETARIO.png" />
     <None Remove="Images\Logos\UANL.png" />
     <None Remove="Images\PesosPlanetariosPlantilla.png" />
+    <None Remove="Images\PesosPlanetariosPlantilla_transparencia.png" />
     <None Remove="Images\Planetas\CERES.png" />
     <None Remove="Images\Planetas\JUPITER.png" />
     <None Remove="Images\Planetas\LUNA.png" />
@@ -84,6 +85,7 @@
     <Resource Include="Images\Logos\PLANETARIO.png" />
     <Resource Include="Images\Logos\UANL.png" />
     <Resource Include="Images\PesosPlanetariosPlantilla.png" />
+    <Resource Include="Images\PesosPlanetariosPlantilla_transparencia.png" />
     <Resource Include="Images\Planetas\CERES.png" />
     <Resource Include="Images\Planetas\JUPITER.png" />
     <Resource Include="Images\Planetas\LUNA.png" />
